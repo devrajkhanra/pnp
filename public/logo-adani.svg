@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 72" role="img" aria-label="The Adani Group">
+  <!-- Rising arc / swoosh above text — signature Adani motif -->
+  <path d="M20 34 Q60 8 140 22" stroke="#006DB7" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Sun/rising energy dot at tip of arc -->
+  <circle cx="142" cy="21" r="5" fill="#F7A01D"/>
+
+  <!-- "adani" wordmark in lowercase bold blue -->
+  <text x="18" y="60" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="34" fill="#006DB7" letter-spacing="-1">adani</text>
+
+  <!-- "THE ADANI GROUP" in small caps beside the wordmark -->
+  <text x="156" y="56" font-family="Arial, sans-serif" font-size="8.5" fill="#444444" font-weight="700" letter-spacing="0.8">THE</text>
+  <text x="150" y="67" font-family="Arial, sans-serif" font-size="8.5" fill="#444444" font-weight="700" letter-spacing="0.8">GROUP</text>
+</svg>
