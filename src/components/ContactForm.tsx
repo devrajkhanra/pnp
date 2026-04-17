@@ -12,7 +12,7 @@ const contactSchema = z.object({
   phone: z.string().min(10, "Valid Phone Number is required (min 10 digits)"),
   email: z.string().email("Valid Email Address is required"),
   inquiryType: z.enum(["Emergency Breakdown", "New Project Bid", "Maintenance Contract"] as const, {
-    errorMap: () => ({ message: "Please select an appropriate inquiry type" }),
+    message: "Please select an appropriate inquiry type",
   }),
   details: z.string().min(10, "Please provide at least 10 characters of project details"),
 });
