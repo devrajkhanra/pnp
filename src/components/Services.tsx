@@ -7,7 +7,7 @@ import { Droplets, GitBranch, Layers, Settings2, Zap, PaintRoller, ArrowRight } 
 const services = [
   {
     id: "oil-storage-tanks",
-    title: "Oil Storage Tanks",
+    title: "Storage Tanks",
     description: "Complete construction, erection & commissioning of API-650 / API-620 tanks — cone roof, dome roof, and floating roof designs up to 79m diameter.",
     icon: Droplets,
     tag: "API-650",

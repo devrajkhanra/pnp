@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { ThemeSwitcher } from "./ThemeSwitcher";
 
 const serviceLinks = [
-  "Oil Storage Tanks (API-650/620)",
+  "Storage Tanks (API-650/620)",
   "Industrial Piping (IBR/Non-IBR)",
   "Structural Engineering",
   "Mechanical Equipment Installation",
@@ -82,7 +82,7 @@ export function Footer() {
                   className="mono-label mt-1"
                   style={{ letterSpacing: "0.15em", color: "var(--fg-muted)" }}
                 >
-                  Works (P) Ltd
+                  Works Pvt Ltd
                 </div>
               </div>
             </div>
@@ -428,7 +428,7 @@ export function Footer() {
               style={{ color: "var(--fg-muted)", letterSpacing: "0.1em" }}
             >
               <span>
-                © {new Date().getFullYear()} PNP Engineering Works (P) Ltd.
+                © {new Date().getFullYear()} PNP Engineering Works Pvt Ltd.
               </span>
               <span style={{ color: "var(--border-light)" }}>|</span>
               <span>All rights reserved.</span>

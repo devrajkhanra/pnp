@@ -12,12 +12,13 @@
   --border-light: #d4d2cb;
   --border-subtle: #e8e6df;
 
-  /* Construction palette */
-  --accent: #f97316;        /* Vibrant construction orange */
+  /* Teal construction palette - #3A857E base */
+  /* --accent: #198020;        */
+  --accent: #268825;        /* Primary teal */
   --accent-fg: #ffffff;
-  --accent-dark: #ea580c;
-  --accent-light: #fed7aa;
-  --accent-subtle: #fff7ed;
+  --accent-dark: #268825;   /* Darker teal for hover */
+  --accent-light: #cce8e3; /* Light teal for backgrounds */
+  --accent-subtle: #e8f5f3;/* Very subtle teal tint */
 
   --danger: #dc2626;
   --success: #16a34a;
@@ -30,17 +31,17 @@
   --steel-400: #9e9b92;
   --steel-500: #6b6b6b;
 
-  /* Safety yellow accent band */
-  --safety-yellow: #fbbf24;
+  /* Teal safety stripe */
+  --safety-teal: #268825;
   --safety-stripe: repeating-linear-gradient(
     -45deg,
-    #fbbf24 0px,
-    #fbbf24 10px,
+    #268825 0px,
+    #268825 10px,
     #1a1a1a 10px,
     #1a1a1a 20px
   );
 }
-
+  
 [data-theme="dark"] {
   --bg: #111110;
   --bg-secondary: #1a1a18;
@@ -52,11 +53,11 @@
   --border-light: #2a2a28;
   --border-subtle: #222220;
 
-  --accent: #f97316;
+  --accent: #268825;
   --accent-fg: #ffffff;
-  --accent-dark: #ea580c;
-  --accent-light: #431407;
-  --accent-subtle: #1c0a00;
+  --accent-dark: #268825;   /* Darker teal for hover */
+  --accent-light: #cce8e3; /* Light teal for backgrounds */
+  --accent-subtle: #e8f5f3;/* Very subtle teal tint */
 
   --danger: #f87171;
   --success: #4ade80;
@@ -68,11 +69,11 @@
   --steel-400: #6b6b6b;
   --steel-500: #9e9b92;
 
-  --safety-yellow: #fbbf24;
+  --safety-teal: #268825;
   --safety-stripe: repeating-linear-gradient(
     -45deg,
-    #fbbf24 0px,
-    #fbbf24 10px,
+    #268825 0px,
+    #268825 10px,
     #111110 10px,
     #111110 20px
   );
@@ -217,7 +218,20 @@ body {
   flex-shrink: 0;
 }
 
-/* ===== CARDS ===== */
+/* ===== HERO GRADIENT TEXT — shades of accent ===== */
+.hero-gradient {
+  background: linear-gradient(90deg, #1a5c1a 0%, var(--accent) 35%, #4ade80 65%, #86efac 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-gradient-2 {
+  background: linear-gradient(90deg, #4ade80 0%, #22c55e 40%, var(--accent) 75%, #1a5c1a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .construction-card {
   background: var(--bg);
   border: 1px solid var(--border-light);
@@ -259,7 +273,7 @@ body {
   padding: 4px 10px;
   background: var(--accent-subtle);
   color: var(--accent);
-  border: 1px solid rgba(249, 115, 22, 0.2);
+  border: 1px solid rgba(58, 133, 126, 0.25);
 }
 
 /* ===== BUTTONS ===== */
@@ -351,7 +365,7 @@ body {
 
 .form-input:focus {
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1);
+  box-shadow: 0 0 0 3px rgba(58, 133, 126, 0.15);
 }
 
 .form-input.error {

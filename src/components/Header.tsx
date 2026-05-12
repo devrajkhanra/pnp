@@ -22,7 +22,7 @@ const navItems = [
     label: "Services",
     href: "/services",
     sub: [
-      { label: "Oil Storage Tanks (API-650)", href: "/services#oil-storage-tanks", tag: "API-650" },
+      { label: "Storage Tanks (API-650)", href: "/services#oil-storage-tanks", tag: "API-650" },
       { label: "Industrial Piping", href: "/services#piping", tag: "IBR / Non-IBR" },
       { label: "Structural Engineering", href: "/services#structural", tag: "Structural" },
       { label: "Mechanical Equipment", href: "/services#equipment", tag: "Equipment" },
@@ -110,8 +110,10 @@ export function Header() {
                   lineHeight: 1,
                 }}
               >
-                PNP
-                <span style={{ color: "var(--accent)", marginLeft: "4px" }}>Engineering</span>
+                PNP Engineering Works
+              </div>
+              <div className="mono-label" style={{ fontSize: "6px", letterSpacing: "0.15em", marginTop: "2px", color: "var(--fg)" }}>
+                Pvt Ltd
               </div>
               <div className="mono-label" style={{ fontSize: "7px", letterSpacing: "0.15em", marginTop: "3px" }}>
                 Est. 1998 · Haldia, WB

@@ -27,7 +27,7 @@ export function Hero() {
       className="relative min-h-screen w-full overflow-hidden flex items-center"
       style={{ background: "var(--bg)", borderBottom: "1px solid var(--border-light)" }}
     >
-      {/* Cinematic Background */}
+      {/* Background Image — full brightness, no washed-out overlay */}
       <div className="absolute inset-0 z-0">
         <Image
           src="/hero-welder.png"
@@ -37,24 +37,24 @@ export function Hero() {
           className="object-cover object-center"
           sizes="100vw"
         />
+        {/* Subtle dark gradient from bottom so footer stripe reads well */}
         <div
           className="absolute inset-0"
           style={{
-            background:
-              "linear-gradient(to right, rgba(17,17,16,0.92) 0%, rgba(17,17,16,0.75) 50%, rgba(17,17,16,0.45) 100%)",
+            background: "linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.2) 40%, rgba(0,0,0,0.05) 70%, transparent 100%)",
           }}
         />
+        {/* Top vignette to anchor into header */}
         <div
           className="absolute inset-0"
           style={{
-            background:
-              "linear-gradient(to top, rgba(17,17,16,0.95) 0%, transparent 60%)",
+            background: "linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, transparent 25%)",
           }}
         />
       </div>
 
-      {/* Subtle grid */}
-      <div className="absolute inset-0 z-0 grid-pattern" style={{ opacity: 0.06 }} />
+      {/* Construction grid — subtle over image */}
+      <div className="absolute inset-0 z-[1] grid-pattern" style={{ opacity: 0.08 }} />
 
       {/* Safety stripe bottom */}
       <div className="safety-stripe-bar absolute bottom-0 left-0 right-0 z-20" />
@@ -68,24 +68,31 @@ export function Hero() {
           animate="visible"
         >
 
-
-          {/* Headline */}
+          {/* Headline — gradient text in all modes */}
           <motion.h1
             variants={slideUp}
             className="text-5xl md:text-6xl lg:text-8xl font-black tracking-tight leading-[0.95]"
-            style={{ color: "var(--fg)", letterSpacing: "-0.02em" }}
+            style={{ letterSpacing: "-0.02em" }}
           >
-            Precision in{" "}
-            <span style={{ color: "var(--accent)" }}>Fabrication.</span>
+            <span className="hero-gradient">Precision</span> in{" "}
+            <span style={{ color: "#ffffff", textShadow: "0 2px 16px rgba(0,0,0,0.5)" }}>Fabrication.</span>
             <br />
-            Strength in Erection.
+            <span className="hero-gradient-2">Strength</span> in{" "}
+            <span style={{ color: "#ffffff", textShadow: "0 2px 16px rgba(0,0,0,0.5)" }}>Erection.</span>
           </motion.h1>
 
-          {/* Sub-copy */}
+          {/* Sub-copy — glass panel */}
           <motion.p
             variants={slideUp}
             className="text-lg md:text-xl font-medium leading-relaxed max-w-xl"
-            style={{ color: "var(--fg-secondary)" }}
+            style={{
+              color: "#f0efe9",
+              background: "rgba(17,17,16,0.7)",
+              padding: "14px 18px",
+              borderLeft: "3px solid var(--accent)",
+              backdropFilter: "blur(8px)",
+              textShadow: "0 1px 4px rgba(0,0,0,0.4)",
+            }}
           >
             West Bengal&apos;s trusted heavy industrial contractor since 1998 —
             specialising in API-650 storage tanks, IBR piping, structural erection,
@@ -99,9 +106,10 @@ export function Hero() {
               <div
                 key={stat.label}
                 className={`stat-block ${i === 0 ? "accent" : ""}`}
+                style={i !== 0 ? { background: "rgba(17,17,16,0.6)", backdropFilter: "blur(8px)", borderLeft: "1px solid rgba(255,255,255,0.1)" } : {}}
               >
-                <div className="stat-val">{stat.value}</div>
-                <div className="stat-label">{stat.label}</div>
+                <div className="stat-val" style={i !== 0 ? { color: "#ffffff" } : {}}>{stat.value}</div>
+                <div className="stat-label" style={i !== 0 ? { color: "rgba(240,239,233,0.7)" } : {}}>{stat.label}</div>
               </div>
             ))}
           </motion.div>
@@ -112,7 +120,7 @@ export function Hero() {
               <ShieldAlert className="w-4 h-4" strokeWidth={2.5} />
               24/7 Emergency Dispatch
             </Link>
-            <Link href="/services" className="btn-outline">
+            <Link href="/services" className="btn-outline" style={{ borderColor: "rgba(255,255,255,0.4)", color: "#f0efe9" }}>
               View Our Capabilities
               <motion.div
                 animate={{ x: [0, 4, 0] }}
@@ -123,11 +131,20 @@ export function Hero() {
             </Link>
           </motion.div>
 
-          {/* Bottom tagline */}
+          {/* Bottom tagline — glass pill */}
           <motion.p
             variants={slideUp}
             className="mono-label"
-            style={{ color: "var(--fg-muted)", letterSpacing: "0.15em", fontSize: "8px" }}
+            style={{
+              color: "#f0efe9",
+              letterSpacing: "0.15em",
+              fontSize: "8px",
+              background: "rgba(17,17,16,0.6)",
+              padding: "6px 14px",
+              width: "fit-content",
+              backdropFilter: "blur(8px)",
+              textShadow: "0 1px 4px rgba(0,0,0,0.4)",
+            }}
           >
             API-650 · IBR Licensed · ASME B31.3 · ISO 9001:2015
           </motion.p>

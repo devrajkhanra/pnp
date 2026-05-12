@@ -16,7 +16,7 @@ import {
 const services = [
   {
     id: "oil-storage-tanks",
-    title: "Oil Storage Tanks",
+    title: "Storage Tanks",
     subtitle: "API-650 / API-620",
     description:
       "Complete design-to-commissioning of atmospheric and low-pressure storage tanks for petroleum, chemical, and LNG terminals. We handle cone roof, dome roof, and external floating roof tanks up to 79m diameter, serving Haldia Refinery and major port terminals across eastern India.",
