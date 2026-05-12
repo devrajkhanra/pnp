@@ -87,7 +87,7 @@ export default function SafetyPage() {
   return (
     <>
       <Header />
-      <main style={{ paddingTop: "64px" }}>
+      <main style={{ paddingTop: "80px" }}>
         {/* Hero */}
         <div
           style={{

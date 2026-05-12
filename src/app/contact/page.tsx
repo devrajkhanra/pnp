@@ -10,7 +10,7 @@ export default function ContactPage() {
   return (
     <>
       <Header />
-      <main style={{ paddingTop: "64px" }}>
+      <main style={{ paddingTop: "80px" }}>
         {/* Hero Banner */}
         <div
           style={{

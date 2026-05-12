@@ -28,6 +28,7 @@ const navItems = [
       { label: "Mechanical Equipment", href: "/services#equipment", tag: "Equipment" },
       { label: "Shutdown & Turnaround", href: "/services#tar", tag: "TAR" },
       { label: "Surface Treatment", href: "/services#surface", tag: "Coating" },
+      { label: "Civil Works", href: "/services#civil", tag: "Civil" },
     ],
   },
   { label: "Clients", href: "/clients" },
@@ -38,14 +39,7 @@ const navItems = [
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-  const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 20);
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   useEffect(() => {
     setMenuOpen(false);
@@ -62,15 +56,16 @@ export function Header() {
 
   return (
     <>
-      {/* Header */}
+      {/* Header — white in light mode, dark gradient in dark mode */}
       <header
-        className={`site-header ${scrolled ? "scrolled" : ""}`}
+        className="site-header"
         style={{
-          background: scrolled ? undefined : "transparent",
-          borderBottom: scrolled ? "1px solid var(--border-light)" : "none",
+          background: "var(--bg)",
+          borderBottom: "1px solid var(--border-light)",
         }}
       >
-        <div className="safety-stripe-bar" />
+        {/* Subtle accent line at top */}
+        <div style={{ height: "3px", background: "var(--accent)" }} />
 
         <div
           className="container mx-auto px-6 lg:px-12 site-header-inner"
@@ -104,19 +99,16 @@ export function Header() {
               <div
                 style={{
                   fontWeight: 900,
-                  fontSize: "14px",
+                  fontSize: "16px",
                   letterSpacing: "-0.01em",
                   color: "var(--fg)",
                   lineHeight: 1,
                 }}
               >
-                PNP Engineering Works
+                PNP ENGINEERING WORKS
               </div>
-              <div className="mono-label" style={{ fontSize: "6px", letterSpacing: "0.15em", marginTop: "2px", color: "var(--fg)" }}>
+              <div className="mono-label" style={{ fontSize: "12px", letterSpacing: "0.15em", marginTop: "2px", color: "var(--fg-muted)" }}>
                 Pvt Ltd
-              </div>
-              <div className="mono-label" style={{ fontSize: "7px", letterSpacing: "0.15em", marginTop: "3px" }}>
-                Est. 1998 · Haldia, WB
               </div>
             </div>
           </Link>
@@ -141,6 +133,7 @@ export function Header() {
                     alignItems: "center",
                     gap: "4px",
                     padding: "8px 16px",
+                    color: isActive(item.href) ? "var(--accent)" : "var(--fg-secondary)",
                   }}
                 >
                   {item.label}
@@ -151,6 +144,7 @@ export function Header() {
                       style={{
                         transition: "transform 0.2s",
                         transform: activeDropdown === item.label ? "rotate(180deg)" : "",
+                        color: isActive(item.href) ? "var(--accent)" : "var(--fg-secondary)",
                       }}
                     />
                   )}
@@ -164,23 +158,57 @@ export function Header() {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -4 }}
                         transition={{ duration: 0.12 }}
-                        className="nav-dropdown"
-                        style={{ padding: "8px 0" }}
+                        style={{
+                          position: "absolute",
+                          top: "calc(100% + 1px)",
+                          left: 0,
+                          minWidth: "260px",
+                          background: "var(--bg)",
+                          border: "1px solid var(--border-light)",
+                          borderTop: "2px solid var(--accent)",
+                          boxShadow: "0 8px 24px rgba(0,0,0,0.12)",
+                          zIndex: 200,
+                          padding: "8px 0",
+                        }}
                       >
                         {item.sub.map((s) => (
                           <Link
                             key={s.href}
                             href={s.href}
-                            className="nav-dropdown-item"
+                            style={{
+                              display: "flex",
+                              alignItems: "center",
+                              gap: "10px",
+                              padding: "10px 16px",
+                              fontSize: "14px",
+                              fontWeight: 500,
+                              color: "var(--fg)",
+                              textDecoration: "none",
+                              borderBottom: "1px solid var(--border-subtle)",
+                              transition: "all 0.12s",
+                            }}
                           >
                             <div>
-                              <div style={{ fontWeight: 600, fontSize: "13px", color: "var(--fg)" }}>
+                              <div style={{ fontWeight: 600, fontSize: "14px", color: "var(--fg)" }}>
                                 {s.label}
                               </div>
                             </div>
                             <div
-                              className="accent-badge"
-                              style={{ marginLeft: "auto", fontSize: "7px" }}
+                              style={{
+                                display: "inline-flex",
+                                alignItems: "center",
+                                gap: "6px",
+                                fontFamily: "var(--font-geist-mono), monospace",
+                                fontSize: "10px",
+                                fontWeight: 700,
+                                letterSpacing: "0.15em",
+                                textTransform: "uppercase",
+                                padding: "4px 10px",
+                                background: "var(--accent-subtle)",
+                                color: "var(--accent)",
+                                border: "1px solid rgba(58,133,126,0.25)",
+                                marginLeft: "auto",
+                              }}
                             >
                               {s.tag}
                             </div>
@@ -210,7 +238,7 @@ export function Header() {
             className="lg:hidden"
             style={{
               padding: "8px",
-              background: menuOpen ? "var(--accent)" : "var(--bg-secondary)",
+              background: menuOpen ? "#4ade80" : "rgba(13,40,24,0.8)",
               border: "1px solid var(--border-light)",
               cursor: "pointer",
               transition: "background 0.12s",
@@ -219,9 +247,9 @@ export function Header() {
             aria-label="Toggle menu"
           >
             {menuOpen ? (
-              <X className="w-5 h-5" strokeWidth={2} style={{ color: "var(--accent-fg)" }} />
+              <X className="w-5 h-5" strokeWidth={2} style={{ color: "#0d2818" }} />
             ) : (
-              <Menu className="w-5 h-5" strokeWidth={2} style={{ color: "var(--fg)" }} />
+              <Menu className="w-5 h-5" strokeWidth={2} style={{ color: "#a5d6a7" }} />
             )}
           </button>
         </div>
@@ -235,7 +263,15 @@ export function Header() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: "100%" }}
             transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
-            className="mobile-menu lg:hidden"
+            style={{
+              position: "fixed",
+              inset: 0,
+              zIndex: 150,
+              background: "var(--bg)",
+              borderLeft: "3px solid var(--accent)",
+              overflowY: "auto",
+              padding: "80px 24px 40px",
+            }}
           >
             {/* Mobile nav items */}
             {navItems.map((item, i) => (
@@ -245,13 +281,23 @@ export function Header() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: i * 0.05 }}
               >
-                <Link href={item.href} className="mobile-nav-item">
+                <Link
+                  href={item.href}
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "16px",
+                    padding: "20px 0",
+                    borderBottom: "1px solid var(--border-light)",
+                    textDecoration: "none",
+                  }}
+                >
                   <div
                     style={{
                       width: "44px",
                       height: "44px",
                       background: "var(--accent-subtle)",
-                      border: "1px solid rgba(249,115,22,0.2)",
+                      border: "1px solid rgba(58,133,126,0.25)",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -264,9 +310,9 @@ export function Header() {
                     {item.label === "Safety" && <ShieldCheck className="w-5 h-5" strokeWidth={1.5} style={{ color: "var(--accent)" }} />}
                   </div>
                   <div>
-                    <div>{item.label}</div>
+                    <div style={{ fontSize: "20px", fontWeight: 800, color: "var(--fg)", letterSpacing: "-0.01em" }}>{item.label}</div>
                     {item.sub && (
-                      <div className="sub">
+                      <div style={{ fontSize: "12px", fontWeight: 500, color: "var(--fg-muted)", marginTop: "4px" }}>
                         {item.sub.length} capabilities
                       </div>
                     )}
@@ -286,6 +332,7 @@ export function Header() {
                           padding: "4px 10px",
                           border: "1px solid var(--border-light)",
                           textDecoration: "none",
+                          background: "var(--bg-secondary)",
                         }}
                       >
                         {s.label}

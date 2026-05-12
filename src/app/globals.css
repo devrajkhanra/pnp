@@ -104,7 +104,7 @@ body {
 /* ===== UTILITY ===== */
 .mono-label {
   font-family: var(--font-geist-mono), monospace;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -130,14 +130,14 @@ body {
 .site-header-inner {
   display: flex;
   align-items: center;
-  height: 64px;
+  height: 80px;
 }
 
 /* ===== NAV LINKS ===== */
 .nav-link {
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--fg-secondary);
   transition: color 0.15s;
@@ -164,11 +164,11 @@ body {
 
 .theme-btn {
   font-family: var(--font-geist-mono), monospace;
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  padding: 5px 10px;
+  padding: 6px 12px;
   border: none;
   cursor: pointer;
   transition: all 0.12s;
@@ -199,7 +199,7 @@ body {
 /* ===== SECTION MARKS ===== */
 .section-mark {
   font-family: var(--font-geist-mono), monospace;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.25em;
   color: var(--accent);
@@ -266,11 +266,11 @@ body {
   align-items: center;
   gap: 6px;
   font-family: var(--font-geist-mono), monospace;
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  padding: 4px 10px;
+  padding: 4px 12px;
   background: var(--accent-subtle);
   color: var(--accent);
   border: 1px solid rgba(58, 133, 126, 0.25);
@@ -281,10 +281,10 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 12px 24px;
-  font-size: 10px;
+  padding: 14px 28px;
+  font-size: 12px;
   font-weight: 800;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   background: var(--accent);
   color: var(--accent-fg);
@@ -303,10 +303,10 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 12px 24px;
-  font-size: 10px;
+  padding: 14px 28px;
+  font-size: 12px;
   font-weight: 800;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   background: transparent;
   color: var(--fg);
@@ -336,13 +336,13 @@ body {
 .stat-block .stat-val {
   font-family: var(--font-geist-mono), monospace;
   font-weight: 900;
-  font-size: 24px;
+  font-size: 28px;
   color: var(--accent);
 }
 
 .stat-block .stat-label {
   font-family: var(--font-geist-mono), monospace;
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;

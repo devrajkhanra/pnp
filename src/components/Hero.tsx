@@ -71,13 +71,13 @@ export function Hero() {
           {/* Headline — gradient text in all modes */}
           <motion.h1
             variants={slideUp}
-            className="text-5xl md:text-6xl lg:text-8xl font-black tracking-tight leading-[0.95]"
+            className="text-3xl md:text-5xl lg:text-7xl font-black tracking-tight leading-[0.95]"
             style={{ letterSpacing: "-0.02em" }}
           >
-            <span className="hero-gradient">Precision</span> in{" "}
+            <span className="hero-gradient">Precision in</span>{" "}
             <span style={{ color: "#ffffff", textShadow: "0 2px 16px rgba(0,0,0,0.5)" }}>Fabrication.</span>
             <br />
-            <span className="hero-gradient-2">Strength</span> in{" "}
+            <span className="hero-gradient-2">Strength in</span>{" "}
             <span style={{ color: "#ffffff", textShadow: "0 2px 16px rgba(0,0,0,0.5)" }}>Erection.</span>
           </motion.h1>
 

@@ -66,7 +66,7 @@ export default function ClientsPage() {
   return (
     <>
       <Header />
-      <main style={{ paddingTop: "64px" }}>
+      <main style={{ paddingTop: "80px" }}>
         {/* Hero */}
         <div
           style={{

@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main style={{ paddingTop: "64px" }}>
+      <main style={{ paddingTop: "80px" }}>
         <Hero />
         <TrustBanner />
         <Services />

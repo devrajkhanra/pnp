@@ -3,11 +3,11 @@
 import { motion } from "framer-motion";
 
 const clients = [
-  { name: "IOCL",        full: "Indian Oil Corporation Ltd.",                    logo: "/logo-iocl.jpg",     height: "h-14 md:h-18" },
-  { name: "HPL",         full: "Haldia Petrochemicals Ltd.",                      logo: "/logo-hpl.png",      height: "h-10 md:h-14" },
-  { name: "Adani",       full: "Adani Ports & SEZ — Haldia Terminal",            logo: "/logo-adani.jpg",    height: "h-10 md:h-12" },
-  { name: "Reliance",    full: "Reliance Industries Ltd.",                       logo: "/logo-reliance.png", height: "h-10 md:h-14" },
-  { name: "CPT",          full: "Syama Prasad Mookerjee Port, Kolkata",          logo: "/logo-cpt.png",      height: "h-14 md:h-18" },
+  { name: "IOCL",        full: "Indian Oil Corporation Ltd.",                    logo: "/logo-iocl.jpg",     height: "h-16 md:h-24" },
+  { name: "HPL",         full: "Haldia Petrochemicals Ltd.",                      logo: "/logo-hpl.png",      height: "h-12 md:h-20" },
+  { name: "Adani",       full: "Adani Ports & SEZ — Haldia Terminal",            logo: "/logo-adani.jpg",    height: "h-12 md:h-18" },
+  { name: "Reliance",    full: "Reliance Industries Ltd.",                       logo: "/logo-reliance.png", height: "h-12 md:h-20" },
+  { name: "CPT",         full: "Syama Prasad Mookerjee Port, Kolkata",             logo: "/logo-cpt.png",      height: "h-16 md:h-24" },
 ];
 
 const ticker = [
@@ -44,8 +44,8 @@ export function TrustBanner() {
       </div>
 
       {/* Logos */}
-      <div className="container mx-auto px-6 lg:px-12 pb-8">
-        <div className="flex flex-wrap justify-center items-center gap-2 md:gap-4">
+      <div className="container mx-auto px-6 lg:px-12 py-10">
+        <div className="flex flex-wrap justify-center items-center gap-6 md:gap-8">
           {clients.map((c, i) => (
             <motion.div
               key={c.name}
