@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import graphify; print\\('ok'\\)\")",
+      "Bash(pip install *)",
+      "Bash(python *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)"
+    ]
+  }
+}

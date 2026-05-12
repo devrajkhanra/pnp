@@ -1,0 +1,2226 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "client_logo_assets",
+        "label": "Client Logo Assets",
+        "nodes": [
+          "public_logo_adani_svg",
+          "public_logo_cpt_svg",
+          "public_logo_hpl_png",
+          "public_logo_iocl_gif",
+          "public_logo_adani_jpg",
+          "public_logo_cpt_png"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "public/"
+      },
+      {
+        "id": "hero_section_assets",
+        "label": "Hero Section Visual Assets",
+        "nodes": [
+          "public_hero_background_png",
+          "public_hero_welder_png",
+          "public_globe_svg"
+        ],
+        "relation": "form",
+        "confidence": "INFERRED",
+        "confidence_score": 0.75,
+        "source_file": "public/"
+      },
+      {
+        "id": "branding_assets_hyperedge",
+        "label": "Project Branding Assets",
+        "nodes": [
+          "public_next.svg_entity",
+          "public_vercel.svg_entity",
+          "public_logo-iocl.jpg_entity",
+          "public_logo-reliance.png_entity",
+          "public_window.svg_entity",
+          "src_app_icon.svg_entity"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "public/next.svg"
+      },
+      {
+        "id": "project_initialization",
+        "label": "Next.js Project Initialization",
+        "nodes": [
+          "readme",
+          "nextjs",
+          "create_next_app"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "README.md"
+      },
+      {
+        "id": "linting_setup",
+        "label": "Next.js TypeScript Linting Stack",
+        "nodes": [
+          "eslint_config",
+          "flat_compat",
+          "next_core_web_vitals",
+          "next_typescript"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "eslint.config.mjs"
+      },
+      {
+        "id": "styling_pipeline",
+        "label": "Tailwind CSS PostCSS Pipeline",
+        "nodes": [
+          "postcss_config",
+          "tailwindcss_postcss"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "postcss.config.mjs"
+      },
+      {
+        "id": "image_hosting_setup",
+        "label": "Next.js Image Remote Patterns",
+        "nodes": [
+          "next_config",
+          "remote_patterns",
+          "nextjs"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "next.config.ts"
+      },
+      {
+        "id": "homepage_page_structure",
+        "label": "Homepage Composition",
+        "nodes": [
+          "page_Home",
+          "component_Hero",
+          "component_TrustBanner",
+          "component_Services",
+          "component_ContactForm",
+          "component_Footer"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "src/app/page.tsx"
+      },
+      {
+        "id": "form_validation_hyperedge",
+        "label": "Form Validation Pipeline",
+        "nodes": [
+          "contactformschema_entity",
+          "contactformvalues_entity",
+          "contactform_entity"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "src/components/ContactForm.tsx"
+      },
+      {
+        "id": "form_fields_hyperedge",
+        "label": "Form Field Bindings",
+        "nodes": [
+          "contactform_entity",
+          "contactformvalues_entity"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "src/components/ContactForm.tsx"
+      },
+      {
+        "id": "landing_page_components",
+        "label": "Landing Page Component Cluster",
+        "nodes": [
+          "hero_entity",
+          "services_entity",
+          "trustbanner_entity",
+          "footer_entity"
+        ],
+        "relation": "participate_in",
+        "confidence": "INFERRED",
+        "confidence_score": 0.75,
+        "source_file": "src/components/Hero.tsx"
+      },
+      {
+        "id": "core_sector_client_network",
+        "label": "Core Sector Client Network",
+        "nodes": [
+          "iocl_client",
+          "hpl_client",
+          "reliance_client",
+          "cpt_client",
+          "adani_client",
+          "pnp_engineering_works_entity"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "src/components/TrustBanner.tsx"
+      },
+      {
+        "id": "services_portfolio",
+        "label": "Services Portfolio",
+        "nodes": [
+          "pnp_engineering_works_entity",
+          "oil_storage_tanks_service",
+          "industrial_piping_service",
+          "structural_engineering_service",
+          "mechanical_equipment_service",
+          "shutdown_turnaround_service",
+          "surface_treatment_service"
+        ],
+        "relation": "implement",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "src/components/Services.tsx"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "eslint.config.mjs",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L1",
+      "id": "eslint_config_mjs",
+      "community": 4,
+      "norm_label": "eslint.config.mjs"
+    },
+    {
+      "label": "__filename",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L5",
+      "id": "pnp_eslint_config_filename",
+      "community": 4,
+      "norm_label": "__filename"
+    },
+    {
+      "label": "__dirname",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L6",
+      "id": "pnp_eslint_config_dirname",
+      "community": 4,
+      "norm_label": "__dirname"
+    },
+    {
+      "label": "compat",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L8",
+      "id": "pnp_eslint_config_compat",
+      "community": 4,
+      "norm_label": "compat"
+    },
+    {
+      "label": "eslintConfig",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L12",
+      "id": "pnp_eslint_config_eslintconfig",
+      "community": 4,
+      "norm_label": "eslintconfig"
+    },
+    {
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L1",
+      "id": "next_config_ts",
+      "community": 10,
+      "norm_label": "next.config.ts"
+    },
+    {
+      "label": "nextConfig",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L3",
+      "id": "pnp_next_config_nextconfig",
+      "community": 10,
+      "norm_label": "nextconfig"
+    },
+    {
+      "label": "postcss.config.mjs",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "id": "postcss_config_mjs",
+      "community": 11,
+      "norm_label": "postcss.config.mjs"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "id": "pnp_postcss_config_config",
+      "community": 11,
+      "norm_label": "config"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L1",
+      "id": "src_app_layout_tsx",
+      "community": 5,
+      "norm_label": "layout.tsx"
+    },
+    {
+      "label": "geistSans",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L5",
+      "id": "app_layout_geistsans",
+      "community": 5,
+      "norm_label": "geistsans"
+    },
+    {
+      "label": "geistMono",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L10",
+      "id": "app_layout_geistmono",
+      "community": 5,
+      "norm_label": "geistmono"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L15",
+      "id": "app_layout_metadata",
+      "community": 5,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L20",
+      "id": "app_layout_rootlayout",
+      "community": 5,
+      "norm_label": "rootlayout()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L1",
+      "id": "src_app_page_tsx",
+      "community": 1,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "Home()",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L7",
+      "id": "app_page_home",
+      "community": 1,
+      "norm_label": "home()"
+    },
+    {
+      "label": "ContactForm.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ContactForm.tsx",
+      "source_location": "L1",
+      "id": "src_components_contactform_tsx",
+      "community": 1,
+      "norm_label": "contactform.tsx"
+    },
+    {
+      "label": "contactSchema",
+      "file_type": "code",
+      "source_file": "src/components/ContactForm.tsx",
+      "source_location": "L9",
+      "id": "components_contactform_contactschema",
+      "community": 1,
+      "norm_label": "contactschema"
+    },
+    {
+      "label": "ContactFormValues",
+      "file_type": "code",
+      "source_file": "src/components/ContactForm.tsx",
+      "source_location": "L20",
+      "id": "components_contactform_contactformvalues",
+      "community": 1,
+      "norm_label": "contactformvalues"
+    },
+    {
+      "label": "ContactForm()",
+      "file_type": "code",
+      "source_file": "src/components/ContactForm.tsx",
+      "source_location": "L22",
+      "id": "components_contactform_contactform",
+      "community": 1,
+      "norm_label": "contactform()"
+    },
+    {
+      "label": "Footer.tsx",
+      "file_type": "code",
+      "source_file": "src/components/Footer.tsx",
+      "source_location": "L1",
+      "id": "src_components_footer_tsx",
+      "community": 1,
+      "norm_label": "footer.tsx"
+    },
+    {
+      "label": "Footer()",
+      "file_type": "code",
+      "source_file": "src/components/Footer.tsx",
+      "source_location": "L3",
+      "id": "components_footer_footer",
+      "community": 1,
+      "norm_label": "footer()"
+    },
+    {
+      "label": "Hero.tsx",
+      "file_type": "code",
+      "source_file": "src/components/Hero.tsx",
+      "source_location": "L1",
+      "id": "src_components_hero_tsx",
+      "community": 1,
+      "norm_label": "hero.tsx"
+    },
+    {
+      "label": "Hero()",
+      "file_type": "code",
+      "source_file": "src/components/Hero.tsx",
+      "source_location": "L6",
+      "id": "components_hero_hero",
+      "community": 1,
+      "norm_label": "hero()"
+    },
+    {
+      "label": "Services.tsx",
+      "file_type": "code",
+      "source_file": "src/components/Services.tsx",
+      "source_location": "L1",
+      "id": "src_components_services_tsx",
+      "community": 1,
+      "norm_label": "services.tsx"
+    },
+    {
+      "label": "services",
+      "file_type": "code",
+      "source_file": "src/components/Services.tsx",
+      "source_location": "L3",
+      "id": "components_services_services",
+      "community": 1,
+      "norm_label": "services"
+    },
+    {
+      "label": "TrustBanner.tsx",
+      "file_type": "code",
+      "source_file": "src/components/TrustBanner.tsx",
+      "source_location": "L1",
+      "id": "src_components_trustbanner_tsx",
+      "community": 1,
+      "norm_label": "trustbanner.tsx"
+    },
+    {
+      "label": "TrustBanner()",
+      "file_type": "code",
+      "source_file": "src/components/TrustBanner.tsx",
+      "source_location": "L1",
+      "id": "components_trustbanner_trustbanner",
+      "community": 1,
+      "norm_label": "trustbanner()"
+    },
+    {
+      "label": "Generic File Icon",
+      "file_type": "image",
+      "source_file": "public/file.svg",
+      "source_location": null,
+      "id": "public_file_svg",
+      "community": 16,
+      "norm_label": "generic file icon"
+    },
+    {
+      "label": "Globe Icon",
+      "file_type": "image",
+      "source_file": "public/globe.svg",
+      "source_location": null,
+      "id": "public_globe_svg",
+      "community": 7,
+      "norm_label": "globe icon"
+    },
+    {
+      "label": "Hero Background Image",
+      "file_type": "image",
+      "source_file": "public/hero-background.png",
+      "source_location": null,
+      "id": "public_hero_background_png",
+      "community": 7,
+      "norm_label": "hero background image"
+    },
+    {
+      "label": "Hero Welder Image",
+      "file_type": "image",
+      "source_file": "public/hero-welder.png",
+      "source_location": null,
+      "id": "public_hero_welder_png",
+      "community": 7,
+      "norm_label": "hero welder image"
+    },
+    {
+      "label": "Adani Group Logo (JPEG)",
+      "file_type": "image",
+      "source_file": "public/logo-adani.jpg",
+      "source_location": null,
+      "id": "public_logo_adani_jpg",
+      "community": 12,
+      "norm_label": "adani group logo (jpeg)"
+    },
+    {
+      "label": "Adani Group Logo",
+      "file_type": "image",
+      "source_file": "public/logo-adani.svg",
+      "source_location": null,
+      "id": "public_logo_adani_svg",
+      "community": 12,
+      "norm_label": "adani group logo"
+    },
+    {
+      "label": "Calcutta Port Trust Logo (PNG)",
+      "file_type": "image",
+      "source_file": "public/logo-cpt.png",
+      "source_location": null,
+      "id": "public_logo_cpt_png",
+      "community": 13,
+      "norm_label": "calcutta port trust logo (png)"
+    },
+    {
+      "label": "Calcutta Port Trust Logo",
+      "file_type": "image",
+      "source_file": "public/logo-cpt.svg",
+      "source_location": null,
+      "id": "public_logo_cpt_svg",
+      "community": 13,
+      "norm_label": "calcutta port trust logo"
+    },
+    {
+      "label": "HPL Logo",
+      "file_type": "image",
+      "source_file": "public/logo-hpl.png",
+      "source_location": null,
+      "id": "public_logo_hpl_png",
+      "community": 17,
+      "norm_label": "hpl logo"
+    },
+    {
+      "label": "IOCL Logo",
+      "file_type": "image",
+      "source_file": "public/logo-iocl.gif",
+      "source_location": null,
+      "id": "public_logo_iocl_gif",
+      "community": 18,
+      "norm_label": "iocl logo"
+    },
+    {
+      "label": "IOCL Logo",
+      "file_type": "image",
+      "source_file": "public/logo-iocl.jpg",
+      "source_location": null,
+      "id": "public_logo-iocl.jpg_entity",
+      "community": 8,
+      "norm_label": "iocl logo"
+    },
+    {
+      "label": "Reliance Logo",
+      "file_type": "image",
+      "source_file": "public/logo-reliance.png",
+      "source_location": null,
+      "id": "public_logo-reliance.png_entity",
+      "community": 8,
+      "norm_label": "reliance logo"
+    },
+    {
+      "label": "Next.js Framework Logo",
+      "file_type": "image",
+      "source_file": "public/next.svg",
+      "source_location": null,
+      "id": "public_next.svg_entity",
+      "community": 14,
+      "norm_label": "next.js framework logo"
+    },
+    {
+      "label": "Vercel Platform Logo",
+      "file_type": "image",
+      "source_file": "public/vercel.svg",
+      "source_location": null,
+      "id": "public_vercel.svg_entity",
+      "community": 14,
+      "norm_label": "vercel platform logo"
+    },
+    {
+      "label": "Window Icon",
+      "file_type": "image",
+      "source_file": "public/window.svg",
+      "source_location": null,
+      "id": "public_window.svg_entity",
+      "community": 19,
+      "norm_label": "window icon"
+    },
+    {
+      "label": "PnP App Icon - Factory",
+      "file_type": "image",
+      "source_file": "src/app/icon.svg",
+      "source_location": null,
+      "id": "src_app_icon.svg_entity",
+      "community": 8,
+      "norm_label": "pnp app icon - factory"
+    },
+    {
+      "label": "README",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme",
+      "community": 2,
+      "norm_label": "readme"
+    },
+    {
+      "label": "ESLint Configuration",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "eslint_config",
+      "community": 2,
+      "norm_label": "eslint configuration"
+    },
+    {
+      "label": "Next.js Configuration",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "next_config",
+      "community": 2,
+      "norm_label": "next.js configuration"
+    },
+    {
+      "label": "PostCSS Configuration",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "postcss_config",
+      "community": 15,
+      "norm_label": "postcss configuration"
+    },
+    {
+      "label": "Next.js",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": "https://nextjs.org",
+      "captured_at": null,
+      "author": "Vercel",
+      "contributor": null,
+      "id": "nextjs",
+      "community": 2,
+      "norm_label": "next.js"
+    },
+    {
+      "label": "create-next-app",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "create_next_app",
+      "community": 2,
+      "norm_label": "create-next-app"
+    },
+    {
+      "label": "next/core-web-vitals ESLint config",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "next_core_web_vitals",
+      "community": 2,
+      "norm_label": "next/core-web-vitals eslint config"
+    },
+    {
+      "label": "next/typescript ESLint config",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "next_typescript",
+      "community": 2,
+      "norm_label": "next/typescript eslint config"
+    },
+    {
+      "label": "FlatCompat",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "flat_compat",
+      "community": 2,
+      "norm_label": "flatcompat"
+    },
+    {
+      "label": "@tailwindcss/postcss",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "tailwindcss_postcss",
+      "community": 15,
+      "norm_label": "@tailwindcss/postcss"
+    },
+    {
+      "label": "Image Remote Patterns",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "remote_patterns",
+      "community": 2,
+      "norm_label": "image remote patterns"
+    },
+    {
+      "label": "Vercel Platform",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": "https://vercel.com",
+      "captured_at": null,
+      "author": "Vercel",
+      "contributor": null,
+      "id": "vercel",
+      "community": 2,
+      "norm_label": "vercel platform"
+    },
+    {
+      "label": "RootLayout",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "line 20",
+      "source_url": null,
+      "captured_at": "2026-05-12",
+      "author": null,
+      "contributor": null,
+      "id": "layout_RootLayout",
+      "community": 3,
+      "norm_label": "rootlayout"
+    },
+    {
+      "label": "Home Page Component",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "line 7",
+      "source_url": null,
+      "captured_at": "2026-05-12",
+      "author": null,
+      "contributor": null,
+      "id": "page_Home",
+      "community": 3,
+      "norm_label": "home page component"
+    },
+    {
+      "label": "Hero Component",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "line 10",
+      "source_url": null,
+      "captured_at": "2026-05-12",
+      "author": null,
+      "contributor": null,
+      "id": "component_Hero",
+      "community": 3,
+      "norm_label": "hero component"
+    },
+    {
+      "label": "TrustBanner Component",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "line 11",
+      "source_url": null,
+      "captured_at": "2026-05-12",
+      "author": null,
+      "contributor": null,
+      "id": "component_TrustBanner",
+      "community": 3,
+      "norm_label": "trustbanner component"
+    },
+    {
+      "label": "Services Component",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "line 12",
+      "source_url": null,
+      "captured_at": "2026-05-12",
+      "author": null,
+      "contributor": null,
+      "id": "component_Services",
+      "community": 3,
+      "norm_label": "services component"
+    },
+    {
+      "label": "ContactForm Component",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "line 13",
+      "source_url": null,
+      "captured_at": "2026-05-12",
+      "author": null,
+      "contributor": null,
+      "id": "component_ContactForm",
+      "community": 3,
+      "norm_label": "contactform component"
+    },
+    {
+      "label": "Footer Component",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "line 14",
+      "source_url": null,
+      "captured_at": "2026-05-12",
+      "author": null,
+      "contributor": null,
+      "id": "component_Footer",
+      "community": 3,
+      "norm_label": "footer component"
+    },
+    {
+      "label": "PNP Engineering Works Metadata",
+      "file_type": "rationale",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "lines 15-18",
+      "source_url": null,
+      "captured_at": "2026-05-12",
+      "author": null,
+      "contributor": null,
+      "id": "metadata_PNP_Engineering",
+      "community": 9,
+      "norm_label": "pnp engineering works metadata"
+    },
+    {
+      "label": "API Storage Tanks",
+      "file_type": "document",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "line 17",
+      "source_url": null,
+      "captured_at": "2026-05-12",
+      "author": null,
+      "contributor": null,
+      "id": "entity_API_Storage_Tanks",
+      "community": 9,
+      "norm_label": "api storage tanks"
+    },
+    {
+      "label": "PNP Engineering Works (P) Ltd",
+      "file_type": "document",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "line 16",
+      "source_url": null,
+      "captured_at": "2026-05-12",
+      "author": null,
+      "contributor": null,
+      "id": "entity_PNP_Engineering_Works",
+      "community": 9,
+      "norm_label": "pnp engineering works (p) ltd"
+    },
+    {
+      "label": "Geist Sans Font",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "line 5",
+      "source_url": null,
+      "captured_at": "2026-05-12",
+      "author": null,
+      "contributor": null,
+      "id": "font_Geist_Sans",
+      "community": 3,
+      "norm_label": "geist sans font"
+    },
+    {
+      "label": "Geist Mono Font",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "line 10",
+      "source_url": null,
+      "captured_at": "2026-05-12",
+      "author": null,
+      "contributor": null,
+      "id": "font_Geist_Mono",
+      "community": 3,
+      "norm_label": "geist mono font"
+    },
+    {
+      "label": "ContactForm Component",
+      "file_type": "code",
+      "source_file": "src/components/ContactForm.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "contactform_entity",
+      "community": 6,
+      "norm_label": "contactform component"
+    },
+    {
+      "label": "contactSchema Zod Schema",
+      "file_type": "code",
+      "source_file": "src/components/ContactForm.tsx",
+      "source_location": "lines 9-18",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "contactformschema_entity",
+      "community": 6,
+      "norm_label": "contactschema zod schema"
+    },
+    {
+      "label": "ContactFormValues Type",
+      "file_type": "code",
+      "source_file": "src/components/ContactForm.tsx",
+      "source_location": "line 20",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "contactformvalues_entity",
+      "community": 6,
+      "norm_label": "contactformvalues type"
+    },
+    {
+      "label": "Inquiry Submission Service",
+      "file_type": "rationale",
+      "source_file": "src/components/ContactForm.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "inquiryservice_entity",
+      "community": 6,
+      "norm_label": "inquiry submission service"
+    },
+    {
+      "label": "Consultation Section",
+      "file_type": "rationale",
+      "source_file": "src/components/ContactForm.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "consultationsection_entity",
+      "community": 6,
+      "norm_label": "consultation section"
+    },
+    {
+      "label": "Footer Component",
+      "file_type": "code",
+      "source_file": "src/components/Footer.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "footer_entity",
+      "community": 0,
+      "norm_label": "footer component"
+    },
+    {
+      "label": "Hero Component",
+      "file_type": "code",
+      "source_file": "src/components/Hero.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "hero_entity",
+      "community": 0,
+      "norm_label": "hero component"
+    },
+    {
+      "label": "Services Component",
+      "file_type": "code",
+      "source_file": "src/components/Services.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "services_entity",
+      "community": 0,
+      "norm_label": "services component"
+    },
+    {
+      "label": "TrustBanner Component",
+      "file_type": "code",
+      "source_file": "src/components/TrustBanner.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "trustbanner_entity",
+      "community": 0,
+      "norm_label": "trustbanner component"
+    },
+    {
+      "label": "PNP Engineering Works",
+      "file_type": "rationale",
+      "source_file": "src/components/Footer.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "pnp_engineering_works_entity",
+      "community": 0,
+      "norm_label": "pnp engineering works"
+    },
+    {
+      "label": "Oil Storage Tanks Service",
+      "file_type": "rationale",
+      "source_file": "src/components/Services.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "oil_storage_tanks_service",
+      "community": 0,
+      "norm_label": "oil storage tanks service"
+    },
+    {
+      "label": "Industrial Piping Service",
+      "file_type": "rationale",
+      "source_file": "src/components/Services.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "industrial_piping_service",
+      "community": 0,
+      "norm_label": "industrial piping service"
+    },
+    {
+      "label": "Structural Engineering Service",
+      "file_type": "rationale",
+      "source_file": "src/components/Services.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "structural_engineering_service",
+      "community": 0,
+      "norm_label": "structural engineering service"
+    },
+    {
+      "label": "Mechanical Equipment Service",
+      "file_type": "rationale",
+      "source_file": "src/components/Services.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "mechanical_equipment_service",
+      "community": 0,
+      "norm_label": "mechanical equipment service"
+    },
+    {
+      "label": "Shutdown & Turnaround Service",
+      "file_type": "rationale",
+      "source_file": "src/components/Services.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "shutdown_turnaround_service",
+      "community": 0,
+      "norm_label": "shutdown & turnaround service"
+    },
+    {
+      "label": "Surface Treatment Service",
+      "file_type": "rationale",
+      "source_file": "src/components/Services.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "surface_treatment_service",
+      "community": 0,
+      "norm_label": "surface treatment service"
+    },
+    {
+      "label": "Indian Oil Corporation Ltd",
+      "file_type": "rationale",
+      "source_file": "src/components/TrustBanner.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "iocl_client",
+      "community": 0,
+      "norm_label": "indian oil corporation ltd"
+    },
+    {
+      "label": "Haldia Petrochemicals Ltd",
+      "file_type": "rationale",
+      "source_file": "src/components/TrustBanner.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "hpl_client",
+      "community": 0,
+      "norm_label": "haldia petrochemicals ltd"
+    },
+    {
+      "label": "Reliance Industries Ltd",
+      "file_type": "rationale",
+      "source_file": "src/components/TrustBanner.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "reliance_client",
+      "community": 0,
+      "norm_label": "reliance industries ltd"
+    },
+    {
+      "label": "Syama Prasad Mookerjee Port Kolkata",
+      "file_type": "rationale",
+      "source_file": "src/components/TrustBanner.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "cpt_client",
+      "community": 0,
+      "norm_label": "syama prasad mookerjee port kolkata"
+    },
+    {
+      "label": "Adani Ports & SEZ Haldia Terminal",
+      "file_type": "rationale",
+      "source_file": "src/components/TrustBanner.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "adani_client",
+      "community": 0,
+      "norm_label": "adani ports & sez haldia terminal"
+    },
+    {
+      "label": "Haldia Refinery",
+      "file_type": "rationale",
+      "source_file": "src/components/Footer.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "haldia_refinery_entity",
+      "community": 0,
+      "norm_label": "haldia refinery"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "eslint_config_mjs",
+      "target": "pnp_eslint_config_filename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "eslint_config_mjs",
+      "target": "pnp_eslint_config_dirname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "eslint_config_mjs",
+      "target": "pnp_eslint_config_compat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "eslint_config_mjs",
+      "target": "pnp_eslint_config_eslintconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "next.config.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "next_config_ts",
+      "target": "pnp_next_config_nextconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "postcss_config_mjs",
+      "target": "pnp_postcss_config_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app_layout_tsx",
+      "target": "app_layout_geistsans",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_app_layout_tsx",
+      "target": "app_layout_geistmono",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_app_layout_tsx",
+      "target": "app_layout_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_app_layout_tsx",
+      "target": "app_layout_rootlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_app_page_tsx",
+      "target": "src_components_hero_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_app_page_tsx",
+      "target": "components_hero_hero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app_page_tsx",
+      "target": "src_components_trustbanner_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app_page_tsx",
+      "target": "components_trustbanner_trustbanner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app_page_tsx",
+      "target": "src_components_services_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app_page_tsx",
+      "target": "components_services_services",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app_page_tsx",
+      "target": "src_components_contactform_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app_page_tsx",
+      "target": "components_contactform_contactform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app_page_tsx",
+      "target": "src_components_footer_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app_page_tsx",
+      "target": "components_footer_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app_page_tsx",
+      "target": "app_page_home",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ContactForm.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_components_contactform_tsx",
+      "target": "components_contactform_contactschema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ContactForm.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_components_contactform_tsx",
+      "target": "components_contactform_contactformvalues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ContactForm.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_components_contactform_tsx",
+      "target": "components_contactform_contactform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_footer_tsx",
+      "target": "components_footer_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_hero_tsx",
+      "target": "components_hero_hero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Services.tsx",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "src_components_services_tsx",
+      "target": "components_services_services",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/TrustBanner.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_components_trustbanner_tsx",
+      "target": "components_trustbanner_trustbanner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "public/globe.svg",
+      "weight": 1.0,
+      "source": "public_globe_svg",
+      "target": "public_hero_welder_png"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "public/globe.svg",
+      "weight": 1.0,
+      "source": "public_globe_svg",
+      "target": "public_hero_background_png"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/logo-adani.svg",
+      "weight": 1.0,
+      "source": "public_logo_adani_svg",
+      "target": "public_logo_adani_jpg"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/logo-cpt.svg",
+      "weight": 1.0,
+      "source": "public_logo_cpt_svg",
+      "target": "public_logo_cpt_png"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.2,
+      "source_file": "src/app/icon.svg",
+      "weight": 0.5,
+      "source": "src_app_icon.svg_entity",
+      "target": "public_logo-iocl.jpg_entity"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.2,
+      "source_file": "src/app/icon.svg",
+      "weight": 0.5,
+      "source": "src_app_icon.svg_entity",
+      "target": "public_logo-reliance.png_entity"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/next.svg",
+      "weight": 1.0,
+      "source": "public_next.svg_entity",
+      "target": "public_vercel.svg_entity"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "line 1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "nextjs"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "line 1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "create_next_app"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "line 34",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "vercel"
+    },
+    {
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "eslint.config.mjs",
+      "source_location": "line 3",
+      "weight": 1.0,
+      "source": "eslint_config",
+      "target": "flat_compat"
+    },
+    {
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "eslint.config.mjs",
+      "source_location": "line 13",
+      "weight": 1.0,
+      "source": "eslint_config",
+      "target": "next_core_web_vitals"
+    },
+    {
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "eslint.config.mjs",
+      "source_location": "line 13",
+      "weight": 1.0,
+      "source": "eslint_config",
+      "target": "next_typescript"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "eslint.config.mjs",
+      "source_location": "line 13",
+      "weight": 1.0,
+      "source": "eslint_config",
+      "target": "nextjs"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "next.config.ts",
+      "source_location": "line 1",
+      "weight": 1.0,
+      "source": "next_config",
+      "target": "nextjs"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "next.config.ts",
+      "source_location": "line 4-9",
+      "weight": 1.0,
+      "source": "next_config",
+      "target": "remote_patterns"
+    },
+    {
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "postcss.config.mjs",
+      "source_location": "line 2",
+      "weight": 1.0,
+      "source": "postcss_config",
+      "target": "tailwindcss_postcss"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": "line 21",
+      "weight": 1.0,
+      "source": "nextjs",
+      "target": "vercel"
+    },
+    {
+      "relation": "wraps",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/layout.tsx",
+      "source_location": "line 30",
+      "weight": 1.0,
+      "source": "layout_RootLayout",
+      "target": "page_Home"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/layout.tsx",
+      "source_location": "line 5",
+      "weight": 1.0,
+      "source": "layout_RootLayout",
+      "target": "font_Geist_Sans"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/layout.tsx",
+      "source_location": "line 10",
+      "weight": 1.0,
+      "source": "layout_RootLayout",
+      "target": "font_Geist_Mono"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/page.tsx",
+      "source_location": "line 10",
+      "weight": 1.0,
+      "source": "page_Home",
+      "target": "component_Hero"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/page.tsx",
+      "source_location": "line 11",
+      "weight": 1.0,
+      "source": "page_Home",
+      "target": "component_TrustBanner"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/page.tsx",
+      "source_location": "line 12",
+      "weight": 1.0,
+      "source": "page_Home",
+      "target": "component_Services"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/page.tsx",
+      "source_location": "line 13",
+      "weight": 1.0,
+      "source": "page_Home",
+      "target": "component_ContactForm"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/page.tsx",
+      "source_location": "line 14",
+      "weight": 1.0,
+      "source": "page_Home",
+      "target": "component_Footer"
+    },
+    {
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/layout.tsx",
+      "source_location": "line 16",
+      "weight": 1.0,
+      "source": "metadata_PNP_Engineering",
+      "target": "entity_PNP_Engineering_Works"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/layout.tsx",
+      "source_location": "line 17",
+      "weight": 1.0,
+      "source": "metadata_PNP_Engineering",
+      "target": "entity_API_Storage_Tanks"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/ContactForm.tsx",
+      "source_location": "line 32",
+      "weight": 1.0,
+      "source": "contactform_entity",
+      "target": "contactformschema_entity"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/ContactForm.tsx",
+      "source_location": "lines 25-31",
+      "weight": 1.0,
+      "source": "contactform_entity",
+      "target": "contactformvalues_entity"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/components/ContactForm.tsx",
+      "source_location": "lines 35-43",
+      "weight": 1.0,
+      "source": "contactform_entity",
+      "target": "inquiryservice_entity"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/ContactForm.tsx",
+      "source_location": "lines 46-182",
+      "weight": 1.0,
+      "source": "consultationsection_entity",
+      "target": "contactform_entity"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/ContactForm.tsx",
+      "source_location": "line 20",
+      "weight": 1.0,
+      "source": "contactformschema_entity",
+      "target": "contactformvalues_entity"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Footer.tsx",
+      "weight": 1.0,
+      "source": "footer_entity",
+      "target": "pnp_engineering_works_entity"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/components/Footer.tsx",
+      "weight": 1.0,
+      "source": "footer_entity",
+      "target": "services_entity"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Footer.tsx",
+      "weight": 1.0,
+      "source": "footer_entity",
+      "target": "haldia_refinery_entity"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "src/components/Footer.tsx",
+      "weight": 1.0,
+      "source": "footer_entity",
+      "target": "trustbanner_entity"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/components/Footer.tsx",
+      "weight": 1.0,
+      "source": "footer_entity",
+      "target": "oil_storage_tanks_service"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/components/Footer.tsx",
+      "weight": 1.0,
+      "source": "footer_entity",
+      "target": "industrial_piping_service"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/components/Footer.tsx",
+      "weight": 1.0,
+      "source": "footer_entity",
+      "target": "shutdown_turnaround_service"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/components/Footer.tsx",
+      "weight": 1.0,
+      "source": "footer_entity",
+      "target": "surface_treatment_service"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Hero.tsx",
+      "weight": 1.0,
+      "source": "hero_entity",
+      "target": "pnp_engineering_works_entity"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/components/Hero.tsx",
+      "weight": 1.0,
+      "source": "hero_entity",
+      "target": "services_entity"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "src/components/Hero.tsx",
+      "weight": 1.0,
+      "source": "hero_entity",
+      "target": "haldia_refinery_entity"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "src/components/Hero.tsx",
+      "weight": 1.0,
+      "source": "hero_entity",
+      "target": "trustbanner_entity"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "src/components/Hero.tsx",
+      "weight": 1.0,
+      "source": "hero_entity",
+      "target": "iocl_client"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "src/components/Hero.tsx",
+      "weight": 1.0,
+      "source": "hero_entity",
+      "target": "hpl_client"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Services.tsx",
+      "weight": 1.0,
+      "source": "services_entity",
+      "target": "pnp_engineering_works_entity"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Services.tsx",
+      "weight": 1.0,
+      "source": "services_entity",
+      "target": "oil_storage_tanks_service"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Services.tsx",
+      "weight": 1.0,
+      "source": "services_entity",
+      "target": "industrial_piping_service"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Services.tsx",
+      "weight": 1.0,
+      "source": "services_entity",
+      "target": "structural_engineering_service"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Services.tsx",
+      "weight": 1.0,
+      "source": "services_entity",
+      "target": "mechanical_equipment_service"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Services.tsx",
+      "weight": 1.0,
+      "source": "services_entity",
+      "target": "shutdown_turnaround_service"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Services.tsx",
+      "weight": 1.0,
+      "source": "services_entity",
+      "target": "surface_treatment_service"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/TrustBanner.tsx",
+      "weight": 1.0,
+      "source": "trustbanner_entity",
+      "target": "iocl_client"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/TrustBanner.tsx",
+      "weight": 1.0,
+      "source": "trustbanner_entity",
+      "target": "hpl_client"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/TrustBanner.tsx",
+      "weight": 1.0,
+      "source": "trustbanner_entity",
+      "target": "reliance_client"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/TrustBanner.tsx",
+      "weight": 1.0,
+      "source": "trustbanner_entity",
+      "target": "cpt_client"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/TrustBanner.tsx",
+      "weight": 1.0,
+      "source": "trustbanner_entity",
+      "target": "adani_client"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "client_logo_assets",
+      "label": "Client Logo Assets",
+      "nodes": [
+        "public_logo_adani_svg",
+        "public_logo_cpt_svg",
+        "public_logo_hpl_png",
+        "public_logo_iocl_gif",
+        "public_logo_adani_jpg",
+        "public_logo_cpt_png"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/"
+    },
+    {
+      "id": "hero_section_assets",
+      "label": "Hero Section Visual Assets",
+      "nodes": [
+        "public_hero_background_png",
+        "public_hero_welder_png",
+        "public_globe_svg"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "public/"
+    },
+    {
+      "id": "branding_assets_hyperedge",
+      "label": "Project Branding Assets",
+      "nodes": [
+        "public_next.svg_entity",
+        "public_vercel.svg_entity",
+        "public_logo-iocl.jpg_entity",
+        "public_logo-reliance.png_entity",
+        "public_window.svg_entity",
+        "src_app_icon.svg_entity"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/next.svg"
+    },
+    {
+      "id": "project_initialization",
+      "label": "Next.js Project Initialization",
+      "nodes": [
+        "readme",
+        "nextjs",
+        "create_next_app"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md"
+    },
+    {
+      "id": "linting_setup",
+      "label": "Next.js TypeScript Linting Stack",
+      "nodes": [
+        "eslint_config",
+        "flat_compat",
+        "next_core_web_vitals",
+        "next_typescript"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "eslint.config.mjs"
+    },
+    {
+      "id": "styling_pipeline",
+      "label": "Tailwind CSS PostCSS Pipeline",
+      "nodes": [
+        "postcss_config",
+        "tailwindcss_postcss"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "postcss.config.mjs"
+    },
+    {
+      "id": "image_hosting_setup",
+      "label": "Next.js Image Remote Patterns",
+      "nodes": [
+        "next_config",
+        "remote_patterns",
+        "nextjs"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "next.config.ts"
+    },
+    {
+      "id": "homepage_page_structure",
+      "label": "Homepage Composition",
+      "nodes": [
+        "page_Home",
+        "component_Hero",
+        "component_TrustBanner",
+        "component_Services",
+        "component_ContactForm",
+        "component_Footer"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/page.tsx"
+    },
+    {
+      "id": "form_validation_hyperedge",
+      "label": "Form Validation Pipeline",
+      "nodes": [
+        "contactformschema_entity",
+        "contactformvalues_entity",
+        "contactform_entity"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/ContactForm.tsx"
+    },
+    {
+      "id": "form_fields_hyperedge",
+      "label": "Form Field Bindings",
+      "nodes": [
+        "contactform_entity",
+        "contactformvalues_entity"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/ContactForm.tsx"
+    },
+    {
+      "id": "landing_page_components",
+      "label": "Landing Page Component Cluster",
+      "nodes": [
+        "hero_entity",
+        "services_entity",
+        "trustbanner_entity",
+        "footer_entity"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "src/components/Hero.tsx"
+    },
+    {
+      "id": "core_sector_client_network",
+      "label": "Core Sector Client Network",
+      "nodes": [
+        "iocl_client",
+        "hpl_client",
+        "reliance_client",
+        "cpt_client",
+        "adani_client",
+        "pnp_engineering_works_entity"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/TrustBanner.tsx"
+    },
+    {
+      "id": "services_portfolio",
+      "label": "Services Portfolio",
+      "nodes": [
+        "pnp_engineering_works_entity",
+        "oil_storage_tanks_service",
+        "industrial_piping_service",
+        "structural_engineering_service",
+        "mechanical_equipment_service",
+        "shutdown_turnaround_service",
+        "surface_treatment_service"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Services.tsx"
+    }
+  ],
+  "built_at_commit": "afc418b5c9fe656809f95ac73f73d25df40d0713"
+}
