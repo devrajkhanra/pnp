@@ -11,6 +11,7 @@ const serviceLinks = [
   "Mechanical Equipment Installation",
   "Shutdown & Turnaround (TAR)",
   "Surface Treatment & Coating",
+  "Civil Works & Maintenance",
 ];
 
 const quickLinks = [
@@ -193,66 +194,7 @@ export function Footer() {
             </div>
 
             <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-              {/* Phone */}
-              <div className="flex items-start gap-4">
-                <div
-                  style={{
-                    padding: "10px",
-                    border: "2px solid var(--border-light)",
-                    background: "var(--bg)",
-                    flexShrink: 0,
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                  }}
-                >
-                  <Phone
-                    className="w-4 h-4"
-                    strokeWidth={2}
-                    style={{ color: "var(--accent)" }}
-                  />
-                </div>
-                <div>
-                  <div
-                    className="text-sm font-black mb-1"
-                    style={{ color: "var(--fg)", letterSpacing: "0.05em" }}
-                  >
-                    03224-645809
-                  </div>
-                  <div className="text-sm font-medium" style={{ color: "var(--fg-secondary)" }}>
-                    +91 96799 99137
-                  </div>
-                  <div className="text-sm font-medium" style={{ color: "var(--fg-secondary)" }}>
-                    +91 94340 28137
-                  </div>
-                  {/* Dispatch status */}
-                  <div
-                    className="mt-2 flex items-center gap-2"
-                    style={{
-                      border: "1px solid var(--success)",
-                      padding: "4px 8px",
-                      width: "fit-content",
-                    }}
-                  >
-                    <motion.div
-                      animate={{ scale: [1, 1.4, 1] }}
-                      transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
-                      style={{
-                        width: 6,
-                        height: 6,
-                        background: "var(--success)",
-                        flexShrink: 0,
-                      }}
-                    />
-                    <span
-                      className="mono-label"
-                      style={{ color: "var(--success)", letterSpacing: "0.1em", fontSize: "8px" }}
-                    >
-                      Dispatch Available
-                    </span>
-                  </div>
-                </div>
-              </div>
+              
 
               {/* Email */}
               <div className="flex items-start gap-4">
@@ -274,13 +216,7 @@ export function Footer() {
                   />
                 </div>
                 <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
-                  <a
-                    href="mailto:pnp@yahoo.co.in"
-                    className="text-sm font-medium hover:underline"
-                    style={{ color: "var(--fg-secondary)", cursor: "pointer" }}
-                  >
-                    pnp@yahoo.co.in
-                  </a>
+                  
                   <a
                     href="mailto:scpanja@yahoo.co.in"
                     className="text-sm font-medium hover:underline"
