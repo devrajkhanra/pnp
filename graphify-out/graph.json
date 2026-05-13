@@ -196,396 +196,396 @@
       "file_type": "code",
       "source_file": "eslint.config.mjs",
       "source_location": "L1",
-      "id": "eslint_config_mjs",
       "community": 4,
-      "norm_label": "eslint.config.mjs"
+      "norm_label": "eslint.config.mjs",
+      "id": "eslint_config_mjs"
     },
     {
       "label": "__filename",
       "file_type": "code",
       "source_file": "eslint.config.mjs",
       "source_location": "L5",
-      "id": "pnp_eslint_config_filename",
       "community": 4,
-      "norm_label": "__filename"
+      "norm_label": "__filename",
+      "id": "pnp_eslint_config_filename"
     },
     {
       "label": "__dirname",
       "file_type": "code",
       "source_file": "eslint.config.mjs",
       "source_location": "L6",
-      "id": "pnp_eslint_config_dirname",
       "community": 4,
-      "norm_label": "__dirname"
+      "norm_label": "__dirname",
+      "id": "pnp_eslint_config_dirname"
     },
     {
       "label": "compat",
       "file_type": "code",
       "source_file": "eslint.config.mjs",
       "source_location": "L8",
-      "id": "pnp_eslint_config_compat",
       "community": 4,
-      "norm_label": "compat"
+      "norm_label": "compat",
+      "id": "pnp_eslint_config_compat"
     },
     {
       "label": "eslintConfig",
       "file_type": "code",
       "source_file": "eslint.config.mjs",
       "source_location": "L12",
-      "id": "pnp_eslint_config_eslintconfig",
       "community": 4,
-      "norm_label": "eslintconfig"
+      "norm_label": "eslintconfig",
+      "id": "pnp_eslint_config_eslintconfig"
     },
     {
       "label": "next.config.ts",
       "file_type": "code",
       "source_file": "next.config.ts",
       "source_location": "L1",
-      "id": "next_config_ts",
       "community": 10,
-      "norm_label": "next.config.ts"
+      "norm_label": "next.config.ts",
+      "id": "next_config_ts"
     },
     {
       "label": "nextConfig",
       "file_type": "code",
       "source_file": "next.config.ts",
       "source_location": "L3",
-      "id": "pnp_next_config_nextconfig",
       "community": 10,
-      "norm_label": "nextconfig"
+      "norm_label": "nextconfig",
+      "id": "pnp_next_config_nextconfig"
     },
     {
       "label": "postcss.config.mjs",
       "file_type": "code",
       "source_file": "postcss.config.mjs",
       "source_location": "L1",
-      "id": "postcss_config_mjs",
       "community": 11,
-      "norm_label": "postcss.config.mjs"
+      "norm_label": "postcss.config.mjs",
+      "id": "postcss_config_mjs"
     },
     {
       "label": "config",
       "file_type": "code",
       "source_file": "postcss.config.mjs",
       "source_location": "L1",
-      "id": "pnp_postcss_config_config",
       "community": 11,
-      "norm_label": "config"
+      "norm_label": "config",
+      "id": "pnp_postcss_config_config"
     },
     {
       "label": "layout.tsx",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
       "source_location": "L1",
-      "id": "src_app_layout_tsx",
       "community": 5,
-      "norm_label": "layout.tsx"
+      "norm_label": "layout.tsx",
+      "id": "src_app_layout_tsx"
     },
     {
       "label": "geistSans",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
       "source_location": "L5",
-      "id": "app_layout_geistsans",
       "community": 5,
-      "norm_label": "geistsans"
+      "norm_label": "geistsans",
+      "id": "app_layout_geistsans"
     },
     {
       "label": "geistMono",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
       "source_location": "L10",
-      "id": "app_layout_geistmono",
       "community": 5,
-      "norm_label": "geistmono"
+      "norm_label": "geistmono",
+      "id": "app_layout_geistmono"
     },
     {
       "label": "metadata",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
       "source_location": "L15",
-      "id": "app_layout_metadata",
       "community": 5,
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "app_layout_metadata"
     },
     {
       "label": "RootLayout()",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
       "source_location": "L20",
-      "id": "app_layout_rootlayout",
       "community": 5,
-      "norm_label": "rootlayout()"
+      "norm_label": "rootlayout()",
+      "id": "app_layout_rootlayout"
     },
     {
       "label": "page.tsx",
       "file_type": "code",
       "source_file": "src/app/page.tsx",
       "source_location": "L1",
-      "id": "src_app_page_tsx",
       "community": 1,
-      "norm_label": "page.tsx"
+      "norm_label": "page.tsx",
+      "id": "src_app_page_tsx"
     },
     {
       "label": "Home()",
       "file_type": "code",
       "source_file": "src/app/page.tsx",
       "source_location": "L7",
-      "id": "app_page_home",
       "community": 1,
-      "norm_label": "home()"
+      "norm_label": "home()",
+      "id": "app_page_home"
     },
     {
       "label": "ContactForm.tsx",
       "file_type": "code",
       "source_file": "src/components/ContactForm.tsx",
       "source_location": "L1",
-      "id": "src_components_contactform_tsx",
       "community": 1,
-      "norm_label": "contactform.tsx"
+      "norm_label": "contactform.tsx",
+      "id": "src_components_contactform_tsx"
     },
     {
       "label": "contactSchema",
       "file_type": "code",
       "source_file": "src/components/ContactForm.tsx",
       "source_location": "L9",
-      "id": "components_contactform_contactschema",
       "community": 1,
-      "norm_label": "contactschema"
+      "norm_label": "contactschema",
+      "id": "components_contactform_contactschema"
     },
     {
       "label": "ContactFormValues",
       "file_type": "code",
       "source_file": "src/components/ContactForm.tsx",
       "source_location": "L20",
-      "id": "components_contactform_contactformvalues",
       "community": 1,
-      "norm_label": "contactformvalues"
+      "norm_label": "contactformvalues",
+      "id": "components_contactform_contactformvalues"
     },
     {
       "label": "ContactForm()",
       "file_type": "code",
       "source_file": "src/components/ContactForm.tsx",
       "source_location": "L22",
-      "id": "components_contactform_contactform",
       "community": 1,
-      "norm_label": "contactform()"
+      "norm_label": "contactform()",
+      "id": "components_contactform_contactform"
     },
     {
       "label": "Footer.tsx",
       "file_type": "code",
       "source_file": "src/components/Footer.tsx",
       "source_location": "L1",
-      "id": "src_components_footer_tsx",
       "community": 1,
-      "norm_label": "footer.tsx"
+      "norm_label": "footer.tsx",
+      "id": "src_components_footer_tsx"
     },
     {
       "label": "Footer()",
       "file_type": "code",
       "source_file": "src/components/Footer.tsx",
       "source_location": "L3",
-      "id": "components_footer_footer",
       "community": 1,
-      "norm_label": "footer()"
+      "norm_label": "footer()",
+      "id": "components_footer_footer"
     },
     {
       "label": "Hero.tsx",
       "file_type": "code",
       "source_file": "src/components/Hero.tsx",
       "source_location": "L1",
-      "id": "src_components_hero_tsx",
       "community": 1,
-      "norm_label": "hero.tsx"
+      "norm_label": "hero.tsx",
+      "id": "src_components_hero_tsx"
     },
     {
       "label": "Hero()",
       "file_type": "code",
       "source_file": "src/components/Hero.tsx",
       "source_location": "L6",
-      "id": "components_hero_hero",
       "community": 1,
-      "norm_label": "hero()"
+      "norm_label": "hero()",
+      "id": "components_hero_hero"
     },
     {
       "label": "Services.tsx",
       "file_type": "code",
       "source_file": "src/components/Services.tsx",
       "source_location": "L1",
-      "id": "src_components_services_tsx",
       "community": 1,
-      "norm_label": "services.tsx"
+      "norm_label": "services.tsx",
+      "id": "src_components_services_tsx"
     },
     {
       "label": "services",
       "file_type": "code",
       "source_file": "src/components/Services.tsx",
       "source_location": "L3",
-      "id": "components_services_services",
       "community": 1,
-      "norm_label": "services"
+      "norm_label": "services",
+      "id": "components_services_services"
     },
     {
       "label": "TrustBanner.tsx",
       "file_type": "code",
       "source_file": "src/components/TrustBanner.tsx",
       "source_location": "L1",
-      "id": "src_components_trustbanner_tsx",
       "community": 1,
-      "norm_label": "trustbanner.tsx"
+      "norm_label": "trustbanner.tsx",
+      "id": "src_components_trustbanner_tsx"
     },
     {
       "label": "TrustBanner()",
       "file_type": "code",
       "source_file": "src/components/TrustBanner.tsx",
       "source_location": "L1",
-      "id": "components_trustbanner_trustbanner",
       "community": 1,
-      "norm_label": "trustbanner()"
+      "norm_label": "trustbanner()",
+      "id": "components_trustbanner_trustbanner"
     },
     {
       "label": "Generic File Icon",
       "file_type": "image",
       "source_file": "public/file.svg",
       "source_location": null,
-      "id": "public_file_svg",
       "community": 16,
-      "norm_label": "generic file icon"
+      "norm_label": "generic file icon",
+      "id": "public_file_svg"
     },
     {
       "label": "Globe Icon",
       "file_type": "image",
       "source_file": "public/globe.svg",
       "source_location": null,
-      "id": "public_globe_svg",
       "community": 7,
-      "norm_label": "globe icon"
+      "norm_label": "globe icon",
+      "id": "public_globe_svg"
     },
     {
       "label": "Hero Background Image",
       "file_type": "image",
       "source_file": "public/hero-background.png",
       "source_location": null,
-      "id": "public_hero_background_png",
       "community": 7,
-      "norm_label": "hero background image"
+      "norm_label": "hero background image",
+      "id": "public_hero_background_png"
     },
     {
       "label": "Hero Welder Image",
       "file_type": "image",
       "source_file": "public/hero-welder.png",
       "source_location": null,
-      "id": "public_hero_welder_png",
       "community": 7,
-      "norm_label": "hero welder image"
+      "norm_label": "hero welder image",
+      "id": "public_hero_welder_png"
     },
     {
       "label": "Adani Group Logo (JPEG)",
       "file_type": "image",
       "source_file": "public/logo-adani.jpg",
       "source_location": null,
-      "id": "public_logo_adani_jpg",
       "community": 12,
-      "norm_label": "adani group logo (jpeg)"
+      "norm_label": "adani group logo (jpeg)",
+      "id": "public_logo_adani_jpg"
     },
     {
       "label": "Adani Group Logo",
       "file_type": "image",
       "source_file": "public/logo-adani.svg",
       "source_location": null,
-      "id": "public_logo_adani_svg",
       "community": 12,
-      "norm_label": "adani group logo"
+      "norm_label": "adani group logo",
+      "id": "public_logo_adani_svg"
     },
     {
       "label": "Calcutta Port Trust Logo (PNG)",
       "file_type": "image",
       "source_file": "public/logo-cpt.png",
       "source_location": null,
-      "id": "public_logo_cpt_png",
       "community": 13,
-      "norm_label": "calcutta port trust logo (png)"
+      "norm_label": "calcutta port trust logo (png)",
+      "id": "public_logo_cpt_png"
     },
     {
       "label": "Calcutta Port Trust Logo",
       "file_type": "image",
       "source_file": "public/logo-cpt.svg",
       "source_location": null,
-      "id": "public_logo_cpt_svg",
       "community": 13,
-      "norm_label": "calcutta port trust logo"
+      "norm_label": "calcutta port trust logo",
+      "id": "public_logo_cpt_svg"
     },
     {
       "label": "HPL Logo",
       "file_type": "image",
       "source_file": "public/logo-hpl.png",
       "source_location": null,
-      "id": "public_logo_hpl_png",
       "community": 17,
-      "norm_label": "hpl logo"
+      "norm_label": "hpl logo",
+      "id": "public_logo_hpl_png"
     },
     {
       "label": "IOCL Logo",
       "file_type": "image",
       "source_file": "public/logo-iocl.gif",
       "source_location": null,
-      "id": "public_logo_iocl_gif",
       "community": 18,
-      "norm_label": "iocl logo"
+      "norm_label": "iocl logo",
+      "id": "public_logo_iocl_gif"
     },
     {
       "label": "IOCL Logo",
       "file_type": "image",
       "source_file": "public/logo-iocl.jpg",
       "source_location": null,
-      "id": "public_logo-iocl.jpg_entity",
       "community": 8,
-      "norm_label": "iocl logo"
+      "norm_label": "iocl logo",
+      "id": "public_logo-iocl.jpg_entity"
     },
     {
       "label": "Reliance Logo",
       "file_type": "image",
       "source_file": "public/logo-reliance.png",
       "source_location": null,
-      "id": "public_logo-reliance.png_entity",
       "community": 8,
-      "norm_label": "reliance logo"
+      "norm_label": "reliance logo",
+      "id": "public_logo-reliance.png_entity"
     },
     {
       "label": "Next.js Framework Logo",
       "file_type": "image",
       "source_file": "public/next.svg",
       "source_location": null,
-      "id": "public_next.svg_entity",
       "community": 14,
-      "norm_label": "next.js framework logo"
+      "norm_label": "next.js framework logo",
+      "id": "public_next.svg_entity"
     },
     {
       "label": "Vercel Platform Logo",
       "file_type": "image",
       "source_file": "public/vercel.svg",
       "source_location": null,
-      "id": "public_vercel.svg_entity",
       "community": 14,
-      "norm_label": "vercel platform logo"
+      "norm_label": "vercel platform logo",
+      "id": "public_vercel.svg_entity"
     },
     {
       "label": "Window Icon",
       "file_type": "image",
       "source_file": "public/window.svg",
       "source_location": null,
-      "id": "public_window.svg_entity",
       "community": 19,
-      "norm_label": "window icon"
+      "norm_label": "window icon",
+      "id": "public_window.svg_entity"
     },
     {
       "label": "PnP App Icon - Factory",
       "file_type": "image",
       "source_file": "src/app/icon.svg",
       "source_location": null,
-      "id": "src_app_icon.svg_entity",
       "community": 8,
-      "norm_label": "pnp app icon - factory"
+      "norm_label": "pnp app icon - factory",
+      "id": "src_app_icon.svg_entity"
     },
     {
       "label": "README",
@@ -596,9 +596,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme",
       "community": 2,
-      "norm_label": "readme"
+      "norm_label": "readme",
+      "id": "readme"
     },
     {
       "label": "ESLint Configuration",
@@ -609,9 +609,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "eslint_config",
       "community": 2,
-      "norm_label": "eslint configuration"
+      "norm_label": "eslint configuration",
+      "id": "eslint_config"
     },
     {
       "label": "Next.js Configuration",
@@ -622,9 +622,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "next_config",
       "community": 2,
-      "norm_label": "next.js configuration"
+      "norm_label": "next.js configuration",
+      "id": "next_config"
     },
     {
       "label": "PostCSS Configuration",
@@ -635,9 +635,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "postcss_config",
       "community": 15,
-      "norm_label": "postcss configuration"
+      "norm_label": "postcss configuration",
+      "id": "postcss_config"
     },
     {
       "label": "Next.js",
@@ -648,9 +648,9 @@
       "captured_at": null,
       "author": "Vercel",
       "contributor": null,
-      "id": "nextjs",
       "community": 2,
-      "norm_label": "next.js"
+      "norm_label": "next.js",
+      "id": "nextjs"
     },
     {
       "label": "create-next-app",
@@ -661,9 +661,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "create_next_app",
       "community": 2,
-      "norm_label": "create-next-app"
+      "norm_label": "create-next-app",
+      "id": "create_next_app"
     },
     {
       "label": "next/core-web-vitals ESLint config",
@@ -674,9 +674,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "next_core_web_vitals",
       "community": 2,
-      "norm_label": "next/core-web-vitals eslint config"
+      "norm_label": "next/core-web-vitals eslint config",
+      "id": "next_core_web_vitals"
     },
     {
       "label": "next/typescript ESLint config",
@@ -687,9 +687,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "next_typescript",
       "community": 2,
-      "norm_label": "next/typescript eslint config"
+      "norm_label": "next/typescript eslint config",
+      "id": "next_typescript"
     },
     {
       "label": "FlatCompat",
@@ -700,9 +700,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "flat_compat",
       "community": 2,
-      "norm_label": "flatcompat"
+      "norm_label": "flatcompat",
+      "id": "flat_compat"
     },
     {
       "label": "@tailwindcss/postcss",
@@ -713,9 +713,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tailwindcss_postcss",
       "community": 15,
-      "norm_label": "@tailwindcss/postcss"
+      "norm_label": "@tailwindcss/postcss",
+      "id": "tailwindcss_postcss"
     },
     {
       "label": "Image Remote Patterns",
@@ -726,9 +726,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "remote_patterns",
       "community": 2,
-      "norm_label": "image remote patterns"
+      "norm_label": "image remote patterns",
+      "id": "remote_patterns"
     },
     {
       "label": "Vercel Platform",
@@ -739,9 +739,9 @@
       "captured_at": null,
       "author": "Vercel",
       "contributor": null,
-      "id": "vercel",
       "community": 2,
-      "norm_label": "vercel platform"
+      "norm_label": "vercel platform",
+      "id": "vercel"
     },
     {
       "label": "RootLayout",
@@ -752,9 +752,9 @@
       "captured_at": "2026-05-12",
       "author": null,
       "contributor": null,
-      "id": "layout_RootLayout",
       "community": 3,
-      "norm_label": "rootlayout"
+      "norm_label": "rootlayout",
+      "id": "layout_RootLayout"
     },
     {
       "label": "Home Page Component",
@@ -765,9 +765,9 @@
       "captured_at": "2026-05-12",
       "author": null,
       "contributor": null,
-      "id": "page_Home",
       "community": 3,
-      "norm_label": "home page component"
+      "norm_label": "home page component",
+      "id": "page_Home"
     },
     {
       "label": "Hero Component",
@@ -778,9 +778,9 @@
       "captured_at": "2026-05-12",
       "author": null,
       "contributor": null,
-      "id": "component_Hero",
       "community": 3,
-      "norm_label": "hero component"
+      "norm_label": "hero component",
+      "id": "component_Hero"
     },
     {
       "label": "TrustBanner Component",
@@ -791,9 +791,9 @@
       "captured_at": "2026-05-12",
       "author": null,
       "contributor": null,
-      "id": "component_TrustBanner",
       "community": 3,
-      "norm_label": "trustbanner component"
+      "norm_label": "trustbanner component",
+      "id": "component_TrustBanner"
     },
     {
       "label": "Services Component",
@@ -804,9 +804,9 @@
       "captured_at": "2026-05-12",
       "author": null,
       "contributor": null,
-      "id": "component_Services",
       "community": 3,
-      "norm_label": "services component"
+      "norm_label": "services component",
+      "id": "component_Services"
     },
     {
       "label": "ContactForm Component",
@@ -817,9 +817,9 @@
       "captured_at": "2026-05-12",
       "author": null,
       "contributor": null,
-      "id": "component_ContactForm",
       "community": 3,
-      "norm_label": "contactform component"
+      "norm_label": "contactform component",
+      "id": "component_ContactForm"
     },
     {
       "label": "Footer Component",
@@ -830,9 +830,9 @@
       "captured_at": "2026-05-12",
       "author": null,
       "contributor": null,
-      "id": "component_Footer",
       "community": 3,
-      "norm_label": "footer component"
+      "norm_label": "footer component",
+      "id": "component_Footer"
     },
     {
       "label": "PNP Engineering Works Metadata",
@@ -843,9 +843,9 @@
       "captured_at": "2026-05-12",
       "author": null,
       "contributor": null,
-      "id": "metadata_PNP_Engineering",
       "community": 9,
-      "norm_label": "pnp engineering works metadata"
+      "norm_label": "pnp engineering works metadata",
+      "id": "metadata_PNP_Engineering"
     },
     {
       "label": "API Storage Tanks",
@@ -856,9 +856,9 @@
       "captured_at": "2026-05-12",
       "author": null,
       "contributor": null,
-      "id": "entity_API_Storage_Tanks",
       "community": 9,
-      "norm_label": "api storage tanks"
+      "norm_label": "api storage tanks",
+      "id": "entity_API_Storage_Tanks"
     },
     {
       "label": "PNP Engineering Works (P) Ltd",
@@ -869,9 +869,9 @@
       "captured_at": "2026-05-12",
       "author": null,
       "contributor": null,
-      "id": "entity_PNP_Engineering_Works",
       "community": 9,
-      "norm_label": "pnp engineering works (p) ltd"
+      "norm_label": "pnp engineering works (p) ltd",
+      "id": "entity_PNP_Engineering_Works"
     },
     {
       "label": "Geist Sans Font",
@@ -882,9 +882,9 @@
       "captured_at": "2026-05-12",
       "author": null,
       "contributor": null,
-      "id": "font_Geist_Sans",
       "community": 3,
-      "norm_label": "geist sans font"
+      "norm_label": "geist sans font",
+      "id": "font_Geist_Sans"
     },
     {
       "label": "Geist Mono Font",
@@ -895,9 +895,9 @@
       "captured_at": "2026-05-12",
       "author": null,
       "contributor": null,
-      "id": "font_Geist_Mono",
       "community": 3,
-      "norm_label": "geist mono font"
+      "norm_label": "geist mono font",
+      "id": "font_Geist_Mono"
     },
     {
       "label": "ContactForm Component",
@@ -908,9 +908,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "contactform_entity",
       "community": 6,
-      "norm_label": "contactform component"
+      "norm_label": "contactform component",
+      "id": "contactform_entity"
     },
     {
       "label": "contactSchema Zod Schema",
@@ -921,9 +921,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "contactformschema_entity",
       "community": 6,
-      "norm_label": "contactschema zod schema"
+      "norm_label": "contactschema zod schema",
+      "id": "contactformschema_entity"
     },
     {
       "label": "ContactFormValues Type",
@@ -934,9 +934,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "contactformvalues_entity",
       "community": 6,
-      "norm_label": "contactformvalues type"
+      "norm_label": "contactformvalues type",
+      "id": "contactformvalues_entity"
     },
     {
       "label": "Inquiry Submission Service",
@@ -947,9 +947,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "inquiryservice_entity",
       "community": 6,
-      "norm_label": "inquiry submission service"
+      "norm_label": "inquiry submission service",
+      "id": "inquiryservice_entity"
     },
     {
       "label": "Consultation Section",
@@ -960,9 +960,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "consultationsection_entity",
       "community": 6,
-      "norm_label": "consultation section"
+      "norm_label": "consultation section",
+      "id": "consultationsection_entity"
     },
     {
       "label": "Footer Component",
@@ -973,9 +973,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "footer_entity",
       "community": 0,
-      "norm_label": "footer component"
+      "norm_label": "footer component",
+      "id": "footer_entity"
     },
     {
       "label": "Hero Component",
@@ -986,9 +986,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "hero_entity",
       "community": 0,
-      "norm_label": "hero component"
+      "norm_label": "hero component",
+      "id": "hero_entity"
     },
     {
       "label": "Services Component",
@@ -999,9 +999,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "services_entity",
       "community": 0,
-      "norm_label": "services component"
+      "norm_label": "services component",
+      "id": "services_entity"
     },
     {
       "label": "TrustBanner Component",
@@ -1012,9 +1012,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "trustbanner_entity",
       "community": 0,
-      "norm_label": "trustbanner component"
+      "norm_label": "trustbanner component",
+      "id": "trustbanner_entity"
     },
     {
       "label": "PNP Engineering Works",
@@ -1025,9 +1025,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pnp_engineering_works_entity",
       "community": 0,
-      "norm_label": "pnp engineering works"
+      "norm_label": "pnp engineering works",
+      "id": "pnp_engineering_works_entity"
     },
     {
       "label": "Oil Storage Tanks Service",
@@ -1038,9 +1038,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "oil_storage_tanks_service",
       "community": 0,
-      "norm_label": "oil storage tanks service"
+      "norm_label": "oil storage tanks service",
+      "id": "oil_storage_tanks_service"
     },
     {
       "label": "Industrial Piping Service",
@@ -1051,9 +1051,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "industrial_piping_service",
       "community": 0,
-      "norm_label": "industrial piping service"
+      "norm_label": "industrial piping service",
+      "id": "industrial_piping_service"
     },
     {
       "label": "Structural Engineering Service",
@@ -1064,9 +1064,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "structural_engineering_service",
       "community": 0,
-      "norm_label": "structural engineering service"
+      "norm_label": "structural engineering service",
+      "id": "structural_engineering_service"
     },
     {
       "label": "Mechanical Equipment Service",
@@ -1077,9 +1077,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mechanical_equipment_service",
       "community": 0,
-      "norm_label": "mechanical equipment service"
+      "norm_label": "mechanical equipment service",
+      "id": "mechanical_equipment_service"
     },
     {
       "label": "Shutdown & Turnaround Service",
@@ -1090,9 +1090,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "shutdown_turnaround_service",
       "community": 0,
-      "norm_label": "shutdown & turnaround service"
+      "norm_label": "shutdown & turnaround service",
+      "id": "shutdown_turnaround_service"
     },
     {
       "label": "Surface Treatment Service",
@@ -1103,9 +1103,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "surface_treatment_service",
       "community": 0,
-      "norm_label": "surface treatment service"
+      "norm_label": "surface treatment service",
+      "id": "surface_treatment_service"
     },
     {
       "label": "Indian Oil Corporation Ltd",
@@ -1116,9 +1116,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "iocl_client",
       "community": 0,
-      "norm_label": "indian oil corporation ltd"
+      "norm_label": "indian oil corporation ltd",
+      "id": "iocl_client"
     },
     {
       "label": "Haldia Petrochemicals Ltd",
@@ -1129,9 +1129,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "hpl_client",
       "community": 0,
-      "norm_label": "haldia petrochemicals ltd"
+      "norm_label": "haldia petrochemicals ltd",
+      "id": "hpl_client"
     },
     {
       "label": "Reliance Industries Ltd",
@@ -1142,9 +1142,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "reliance_client",
       "community": 0,
-      "norm_label": "reliance industries ltd"
+      "norm_label": "reliance industries ltd",
+      "id": "reliance_client"
     },
     {
       "label": "Syama Prasad Mookerjee Port Kolkata",
@@ -1155,9 +1155,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cpt_client",
       "community": 0,
-      "norm_label": "syama prasad mookerjee port kolkata"
+      "norm_label": "syama prasad mookerjee port kolkata",
+      "id": "cpt_client"
     },
     {
       "label": "Adani Ports & SEZ Haldia Terminal",
@@ -1168,9 +1168,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "adani_client",
       "community": 0,
-      "norm_label": "adani ports & sez haldia terminal"
+      "norm_label": "adani ports & sez haldia terminal",
+      "id": "adani_client"
     },
     {
       "label": "Haldia Refinery",
@@ -1181,9 +1181,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "haldia_refinery_entity",
       "community": 0,
-      "norm_label": "haldia refinery"
+      "norm_label": "haldia refinery",
+      "id": "haldia_refinery_entity"
     }
   ],
   "links": [
@@ -1193,9 +1193,9 @@
       "source_file": "eslint.config.mjs",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "eslint_config_mjs",
-      "target": "pnp_eslint_config_filename",
-      "confidence_score": 1.0
+      "target": "pnp_eslint_config_filename"
     },
     {
       "relation": "contains",
@@ -1203,9 +1203,9 @@
       "source_file": "eslint.config.mjs",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "eslint_config_mjs",
-      "target": "pnp_eslint_config_dirname",
-      "confidence_score": 1.0
+      "target": "pnp_eslint_config_dirname"
     },
     {
       "relation": "contains",
@@ -1213,9 +1213,9 @@
       "source_file": "eslint.config.mjs",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "eslint_config_mjs",
-      "target": "pnp_eslint_config_compat",
-      "confidence_score": 1.0
+      "target": "pnp_eslint_config_compat"
     },
     {
       "relation": "contains",
@@ -1223,9 +1223,9 @@
       "source_file": "eslint.config.mjs",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "eslint_config_mjs",
-      "target": "pnp_eslint_config_eslintconfig",
-      "confidence_score": 1.0
+      "target": "pnp_eslint_config_eslintconfig"
     },
     {
       "relation": "contains",
@@ -1233,9 +1233,9 @@
       "source_file": "next.config.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "next_config_ts",
-      "target": "pnp_next_config_nextconfig",
-      "confidence_score": 1.0
+      "target": "pnp_next_config_nextconfig"
     },
     {
       "relation": "contains",
@@ -1243,9 +1243,9 @@
       "source_file": "postcss.config.mjs",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "postcss_config_mjs",
-      "target": "pnp_postcss_config_config",
-      "confidence_score": 1.0
+      "target": "pnp_postcss_config_config"
     },
     {
       "relation": "contains",
@@ -1253,9 +1253,9 @@
       "source_file": "src/app/layout.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_layout_tsx",
-      "target": "app_layout_geistsans",
-      "confidence_score": 1.0
+      "target": "app_layout_geistsans"
     },
     {
       "relation": "contains",
@@ -1263,9 +1263,9 @@
       "source_file": "src/app/layout.tsx",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_layout_tsx",
-      "target": "app_layout_geistmono",
-      "confidence_score": 1.0
+      "target": "app_layout_geistmono"
     },
     {
       "relation": "contains",
@@ -1273,9 +1273,9 @@
       "source_file": "src/app/layout.tsx",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_layout_tsx",
-      "target": "app_layout_metadata",
-      "confidence_score": 1.0
+      "target": "app_layout_metadata"
     },
     {
       "relation": "contains",
@@ -1283,9 +1283,9 @@
       "source_file": "src/app/layout.tsx",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_layout_tsx",
-      "target": "app_layout_rootlayout",
-      "confidence_score": 1.0
+      "target": "app_layout_rootlayout"
     },
     {
       "relation": "imports_from",
@@ -1294,9 +1294,9 @@
       "source_file": "src/app/page.tsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_page_tsx",
-      "target": "src_components_hero_tsx",
-      "confidence_score": 1.0
+      "target": "src_components_hero_tsx"
     },
     {
       "relation": "imports",
@@ -1305,9 +1305,9 @@
       "source_file": "src/app/page.tsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_page_tsx",
-      "target": "components_hero_hero",
-      "confidence_score": 1.0
+      "target": "components_hero_hero"
     },
     {
       "relation": "imports_from",
@@ -1316,9 +1316,9 @@
       "source_file": "src/app/page.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_page_tsx",
-      "target": "src_components_trustbanner_tsx",
-      "confidence_score": 1.0
+      "target": "src_components_trustbanner_tsx"
     },
     {
       "relation": "imports",
@@ -1327,9 +1327,9 @@
       "source_file": "src/app/page.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_page_tsx",
-      "target": "components_trustbanner_trustbanner",
-      "confidence_score": 1.0
+      "target": "components_trustbanner_trustbanner"
     },
     {
       "relation": "imports_from",
@@ -1338,9 +1338,9 @@
       "source_file": "src/app/page.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_page_tsx",
-      "target": "src_components_services_tsx",
-      "confidence_score": 1.0
+      "target": "src_components_services_tsx"
     },
     {
       "relation": "imports",
@@ -1349,9 +1349,9 @@
       "source_file": "src/app/page.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_page_tsx",
-      "target": "components_services_services",
-      "confidence_score": 1.0
+      "target": "components_services_services"
     },
     {
       "relation": "imports_from",
@@ -1360,9 +1360,9 @@
       "source_file": "src/app/page.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_page_tsx",
-      "target": "src_components_contactform_tsx",
-      "confidence_score": 1.0
+      "target": "src_components_contactform_tsx"
     },
     {
       "relation": "imports",
@@ -1371,9 +1371,9 @@
       "source_file": "src/app/page.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_page_tsx",
-      "target": "components_contactform_contactform",
-      "confidence_score": 1.0
+      "target": "components_contactform_contactform"
     },
     {
       "relation": "imports_from",
@@ -1382,9 +1382,9 @@
       "source_file": "src/app/page.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_page_tsx",
-      "target": "src_components_footer_tsx",
-      "confidence_score": 1.0
+      "target": "src_components_footer_tsx"
     },
     {
       "relation": "imports",
@@ -1393,9 +1393,9 @@
       "source_file": "src/app/page.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_page_tsx",
-      "target": "components_footer_footer",
-      "confidence_score": 1.0
+      "target": "components_footer_footer"
     },
     {
       "relation": "contains",
@@ -1403,9 +1403,9 @@
       "source_file": "src/app/page.tsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_page_tsx",
-      "target": "app_page_home",
-      "confidence_score": 1.0
+      "target": "app_page_home"
     },
     {
       "relation": "contains",
@@ -1413,9 +1413,9 @@
       "source_file": "src/components/ContactForm.tsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_contactform_tsx",
-      "target": "components_contactform_contactschema",
-      "confidence_score": 1.0
+      "target": "components_contactform_contactschema"
     },
     {
       "relation": "contains",
@@ -1423,9 +1423,9 @@
       "source_file": "src/components/ContactForm.tsx",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_contactform_tsx",
-      "target": "components_contactform_contactformvalues",
-      "confidence_score": 1.0
+      "target": "components_contactform_contactformvalues"
     },
     {
       "relation": "contains",
@@ -1433,9 +1433,9 @@
       "source_file": "src/components/ContactForm.tsx",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_contactform_tsx",
-      "target": "components_contactform_contactform",
-      "confidence_score": 1.0
+      "target": "components_contactform_contactform"
     },
     {
       "relation": "contains",
@@ -1443,9 +1443,9 @@
       "source_file": "src/components/Footer.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_footer_tsx",
-      "target": "components_footer_footer",
-      "confidence_score": 1.0
+      "target": "components_footer_footer"
     },
     {
       "relation": "contains",
@@ -1453,9 +1453,9 @@
       "source_file": "src/components/Hero.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_hero_tsx",
-      "target": "components_hero_hero",
-      "confidence_score": 1.0
+      "target": "components_hero_hero"
     },
     {
       "relation": "contains",
@@ -1463,9 +1463,9 @@
       "source_file": "src/components/Services.tsx",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_services_tsx",
-      "target": "components_services_services",
-      "confidence_score": 1.0
+      "target": "components_services_services"
     },
     {
       "relation": "contains",
@@ -1473,9 +1473,9 @@
       "source_file": "src/components/TrustBanner.tsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_trustbanner_tsx",
-      "target": "components_trustbanner_trustbanner",
-      "confidence_score": 1.0
+      "target": "components_trustbanner_trustbanner"
     },
     {
       "relation": "conceptually_related_to",
@@ -1501,8 +1501,8 @@
       "confidence_score": 1.0,
       "source_file": "public/logo-adani.svg",
       "weight": 1.0,
-      "source": "public_logo_adani_svg",
-      "target": "public_logo_adani_jpg"
+      "source": "public_logo_adani_jpg",
+      "target": "public_logo_adani_svg"
     },
     {
       "relation": "shares_data_with",
@@ -1510,8 +1510,8 @@
       "confidence_score": 1.0,
       "source_file": "public/logo-cpt.svg",
       "weight": 1.0,
-      "source": "public_logo_cpt_svg",
-      "target": "public_logo_cpt_png"
+      "source": "public_logo_cpt_png",
+      "target": "public_logo_cpt_svg"
     },
     {
       "relation": "conceptually_related_to",
@@ -1519,8 +1519,8 @@
       "confidence_score": 0.2,
       "source_file": "src/app/icon.svg",
       "weight": 0.5,
-      "source": "src_app_icon.svg_entity",
-      "target": "public_logo-iocl.jpg_entity"
+      "source": "public_logo-iocl.jpg_entity",
+      "target": "src_app_icon.svg_entity"
     },
     {
       "relation": "conceptually_related_to",
@@ -1528,8 +1528,8 @@
       "confidence_score": 0.2,
       "source_file": "src/app/icon.svg",
       "weight": 0.5,
-      "source": "src_app_icon.svg_entity",
-      "target": "public_logo-reliance.png_entity"
+      "source": "public_logo-reliance.png_entity",
+      "target": "src_app_icon.svg_entity"
     },
     {
       "relation": "conceptually_related_to",
@@ -1787,8 +1787,8 @@
       "source_file": "src/components/ContactForm.tsx",
       "source_location": "lines 46-182",
       "weight": 1.0,
-      "source": "consultationsection_entity",
-      "target": "contactform_entity"
+      "source": "contactform_entity",
+      "target": "consultationsection_entity"
     },
     {
       "relation": "implements",
@@ -2222,5 +2222,5 @@
       "source_file": "src/components/Services.tsx"
     }
   ],
-  "built_at_commit": "afc418b5c9fe656809f95ac73f73d25df40d0713"
+  "built_at_commit": "6aa8a12ea39979263211047b1646e9ebad5897e1"
 }

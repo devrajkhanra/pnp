@@ -37,18 +37,18 @@ export function Hero() {
           className="object-cover object-center"
           sizes="100vw"
         />
-        {/* Subtle dark gradient from bottom so footer stripe reads well */}
+        {/* Dark overlay - stronger gradient for text readability */}
         <div
           className="absolute inset-0"
           style={{
-            background: "linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.2) 40%, rgba(0,0,0,0.05) 70%, transparent 100%)",
+            background: "linear-gradient(to top, rgba(0,0,0,0.85) 50%, rgba(0,0,0,0.5) 100%, rgba(0,0,0,0.25) 50%, rgba(0,0,0,0.1) 100%)",
           }}
         />
         {/* Top vignette to anchor into header */}
         <div
           className="absolute inset-0"
           style={{
-            background: "linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, transparent 25%)",
+            background: "linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, transparent 30%)",
           }}
         />
       </div>

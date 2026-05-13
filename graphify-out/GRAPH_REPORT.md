@@ -1,35 +1,35 @@
-# Graph Report - .  (2026-05-12)
+# Graph Report - .  (2026-05-13)
 
 ## Corpus Check
-- 28 files · ~63,984 words
+- 37 files · ~70,473 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
 - 90 nodes · 87 edges · 20 communities (10 shown, 10 thin omitted)
 - Extraction: 78% EXTRACTED · 20% INFERRED · 2% AMBIGUOUS · INFERRED: 17 edges (avg confidence: 0.8)
-- Token cost: 0 input · 92,374 output
+- Token cost: 6,974 input · 7,020 output
 
 ## Community Hubs (Navigation)
-- [[_COMMUNITY_Business Services & Clients|Business Services & Clients]]
-- [[_COMMUNITY_Page & Component Composition|Page & Component Composition]]
-- [[_COMMUNITY_Next.js Project Setup|Next.js Project Setup]]
-- [[_COMMUNITY_App Layout Components|App Layout Components]]
-- [[_COMMUNITY_ESLint Configuration|ESLint Configuration]]
-- [[_COMMUNITY_Root Layout & Fonts|Root Layout & Fonts]]
-- [[_COMMUNITY_Contact Form Validation|Contact Form Validation]]
-- [[_COMMUNITY_Hero Section Assets|Hero Section Assets]]
-- [[_COMMUNITY_Brand Icon Assets|Brand Icon Assets]]
-- [[_COMMUNITY_PNP Metadata|PNP Metadata]]
-- [[_COMMUNITY_Next.js Config AST|Next.js Config AST]]
-- [[_COMMUNITY_PostCSS Configuration|PostCSS Configuration]]
-- [[_COMMUNITY_Adani Logo Pair|Adani Logo Pair]]
-- [[_COMMUNITY_CPT Logo Pair|CPT Logo Pair]]
-- [[_COMMUNITY_NextVercel Branding|Next/Vercel Branding]]
-- [[_COMMUNITY_Tailwind PostCSS Pipeline|Tailwind PostCSS Pipeline]]
-- [[_COMMUNITY_Generic File Icon|Generic File Icon]]
-- [[_COMMUNITY_HPL Logo|HPL Logo]]
-- [[_COMMUNITY_IOCL Logo|IOCL Logo]]
-- [[_COMMUNITY_Window Icon|Window Icon]]
+- [[_COMMUNITY_Community 0|Community 0]]
+- [[_COMMUNITY_Community 1|Community 1]]
+- [[_COMMUNITY_Community 2|Community 2]]
+- [[_COMMUNITY_Community 3|Community 3]]
+- [[_COMMUNITY_Community 4|Community 4]]
+- [[_COMMUNITY_Community 5|Community 5]]
+- [[_COMMUNITY_Community 6|Community 6]]
+- [[_COMMUNITY_Community 7|Community 7]]
+- [[_COMMUNITY_Community 8|Community 8]]
+- [[_COMMUNITY_Community 9|Community 9]]
+- [[_COMMUNITY_Community 10|Community 10]]
+- [[_COMMUNITY_Community 11|Community 11]]
+- [[_COMMUNITY_Community 12|Community 12]]
+- [[_COMMUNITY_Community 13|Community 13]]
+- [[_COMMUNITY_Community 14|Community 14]]
+- [[_COMMUNITY_Community 15|Community 15]]
+- [[_COMMUNITY_Community 16|Community 16]]
+- [[_COMMUNITY_Community 17|Community 17]]
+- [[_COMMUNITY_Community 18|Community 18]]
+- [[_COMMUNITY_Community 19|Community 19]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Services Component` - 9 edges
@@ -46,10 +46,10 @@
 ## Surprising Connections (you probably didn't know these)
 - `ESLint Configuration` --conceptually_related_to--> `Next.js`  [INFERRED]
   eslint.config.mjs → README.md
-- `PnP App Icon - Factory` --conceptually_related_to--> `IOCL Logo`  [AMBIGUOUS]
-  src/app/icon.svg → public/logo-iocl.jpg
-- `PnP App Icon - Factory` --conceptually_related_to--> `Reliance Logo`  [AMBIGUOUS]
-  src/app/icon.svg → public/logo-reliance.png
+- `IOCL Logo` --conceptually_related_to--> `PnP App Icon - Factory`  [AMBIGUOUS]
+  public/logo-iocl.jpg → src/app/icon.svg
+- `Reliance Logo` --conceptually_related_to--> `PnP App Icon - Factory`  [AMBIGUOUS]
+  public/logo-reliance.png → src/app/icon.svg
 - `Next.js Configuration` --implements--> `Next.js`  [EXTRACTED]
   next.config.ts → README.md
 - `Footer Component` --conceptually_related_to--> `Oil Storage Tanks Service`  [INFERRED]
@@ -72,43 +72,43 @@
 
 ## Communities (20 total, 10 thin omitted)
 
-### Community 0 - "Business Services & Clients"
+### Community 0 - "Community 0"
 Cohesion: 0.19
 Nodes (17): Adani Ports & SEZ Haldia Terminal, Syama Prasad Mookerjee Port Kolkata, Footer Component, Haldia Refinery, Hero Component, Haldia Petrochemicals Ltd, Industrial Piping Service, Indian Oil Corporation Ltd (+9 more)
 
-### Community 1 - "Page & Component Composition"
+### Community 1 - "Community 1"
 Cohesion: 0.2
 Nodes (7): ContactForm(), ContactFormValues, contactSchema, Footer(), Hero(), services, TrustBanner()
 
-### Community 2 - "Next.js Project Setup"
+### Community 2 - "Community 2"
 Cohesion: 0.22
 Nodes (10): create-next-app, ESLint Configuration, FlatCompat, Next.js Configuration, next/core-web-vitals ESLint config, next/typescript ESLint config, Next.js, README (+2 more)
 
-### Community 3 - "App Layout Components"
+### Community 3 - "Community 3"
 Cohesion: 0.22
 Nodes (9): ContactForm Component, Footer Component, Hero Component, Services Component, TrustBanner Component, Geist Mono Font, Geist Sans Font, RootLayout (+1 more)
 
-### Community 4 - "ESLint Configuration"
+### Community 4 - "Community 4"
 Cohesion: 0.4
 Nodes (4): compat, __dirname, eslintConfig, __filename
 
-### Community 5 - "Root Layout & Fonts"
+### Community 5 - "Community 5"
 Cohesion: 0.4
 Nodes (3): geistMono, geistSans, metadata
 
-### Community 6 - "Contact Form Validation"
+### Community 6 - "Community 6"
 Cohesion: 0.5
 Nodes (5): Consultation Section, ContactForm Component, contactSchema Zod Schema, ContactFormValues Type, Inquiry Submission Service
 
-### Community 7 - "Hero Section Assets"
+### Community 7 - "Community 7"
 Cohesion: 0.67
 Nodes (3): Globe Icon, Hero Background Image, Hero Welder Image
 
-### Community 8 - "Brand Icon Assets"
+### Community 8 - "Community 8"
 Cohesion: 0.67
 Nodes (3): IOCL Logo, Reliance Logo, PnP App Icon - Factory
 
-### Community 9 - "PNP Metadata"
+### Community 9 - "Community 9"
 Cohesion: 0.67
 Nodes (3): API Storage Tanks, PNP Engineering Works (P) Ltd, PNP Engineering Works Metadata
 

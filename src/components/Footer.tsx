@@ -258,7 +258,7 @@ export function Footer() {
                     className="mono-label mt-2"
                     style={{ color: "var(--fg-muted)", letterSpacing: "0.1em", fontSize: "8px" }}
                   >
-                    14km from Haldia Refinery, NH-41
+                    14km from Haldia Refinery, NH-116
                   </div>
                 </div>
               </div>
